@@ -4,8 +4,8 @@ body {
 }
 
 .mood-orizzontale {
-border-radius:75;
+text-align: center;
 height: 864 px;
 width: 1296 px;
-text-align: center;
+border-radius: 75 px;
 }
