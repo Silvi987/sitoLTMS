@@ -2,3 +2,10 @@ body {
     background: #F9FAFD;
     background: radial-gradient(circle,rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
+
+.mood-orizzontale {
+border-radius:75;
+height: 864 px;
+width: 1296 px;
+
+}
