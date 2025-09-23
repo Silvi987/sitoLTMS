@@ -22,3 +22,19 @@ overflow: hidden;
 #acqua {
     opacity: 45%;
 }
+
+.mood-palline {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    height: 482px;
+    width: 482px;
+}
+
+.mood-palline img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
