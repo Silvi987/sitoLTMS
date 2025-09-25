@@ -9,7 +9,6 @@ border-radius:75px;
 height: 864px;
 width: 1296px;
 overflow: hidden; 
-
 }
 
 .mood-orizzontale img {
@@ -40,9 +39,35 @@ overflow: hidden;
 }
 
 .mood-verticale {
-
+text-align: center;
+height: 1296px ;
+width: 864px;
+border-radius:75px;
+overflow: hidden;
 }
 
+.mood-verticale img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+} 
+
 .box-text-button {
-    
+text-align: center;
+background-color: #F9FAFD;
+border-radius:75px;
+width: 718px;
+height: 889px;
+overflow-wrap: break-word;
+overflow: hidden;
+padding-top: 72px;
+padding-bottom: 72px;
+padding-left: 35px;
+padding-right: 35px;
+position: relative;
+}
+
+.testo-fit-box {
+    position: absolute;
 }
