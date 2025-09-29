@@ -129,6 +129,7 @@ position: relative;
     background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
     width: 1702px;
     height: 1200px;
+    border-radius:75px;
 }
 
 figure {
@@ -152,3 +153,10 @@ figcaption {
   color: #888;
 }
 
+footer {
+    background: #2339B6;
+    background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
+    height: 320px;
+    border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+}
