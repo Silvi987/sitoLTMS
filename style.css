@@ -105,6 +105,18 @@ overflow: hidden;
     object-fit: cover;
 }
 
+h2 {
+    font-family: 'Edu TAS Beginner',serif;
+    font-size: 64px;
+}
+
+.second {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .mood-verticale {
 text-align: center;
 height: 1296px ;
