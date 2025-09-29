@@ -5,10 +5,13 @@ body {
 
 
 nav {
+  height: 134px;
   display: flex;
   justify-content: space-around;
   background-color: #2339B6;
   padding: 10px 40px;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
 }
 
 .menu {
@@ -17,6 +20,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 2rem;
+font-family: 'Inter', sans-serif;
+font-size: 40px;
 }
 
 .menu >li {
@@ -37,6 +42,7 @@ gap: 2rem;
 
 .submenu {
  list-style: none;
+ display: none;
 }
 
 .mood-orizzontale {
