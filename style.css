@@ -14,6 +14,8 @@ nav {
   border-bottom-right-radius: 55px;
 }
 
+
+
 .menu {
 list-style: none;
 display: flex;
@@ -34,7 +36,7 @@ font-size: 40px;
     transition: 0.3s;
 }
 
-.menu > li > a:hover {
+.menu > li.voci-menu > a:hover {
   color: #3B3B3B;
   background-color: #D4DEFE;
   padding: 50px 5px;
