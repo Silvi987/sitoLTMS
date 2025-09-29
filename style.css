@@ -3,7 +3,6 @@ body {
     background: radial-gradient(circle,rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
 
-
 nav {
   height: 134px;
   display: flex;
@@ -14,12 +13,10 @@ nav {
   border-bottom-right-radius: 55px;
 }
 
-
-
 .menu {
 list-style: none;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 gap: 5rem;
 font-family: 'Inter', sans-serif;
