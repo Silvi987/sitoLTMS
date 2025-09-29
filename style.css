@@ -81,3 +81,50 @@ position: relative;
     background: #2339B6;
     background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3e4dc3;
+  padding: 10px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+  color: #3e4dc3;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+figure {
+  max-width: 400px;
+  margin: 20px auto;     /* centra il blocco */
+  text-align: center;    /* centra testo e immagine */
+  font-family: Arial, sans-serif;
+  color: #555;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #888;
+}
+
+submenu {
+    
+}
