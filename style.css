@@ -11,6 +11,14 @@ nav {
   padding: 10px 40px;
   border-bottom-left-radius: 55px;
   border-bottom-right-radius: 55px;
+  
+}
+
+.icone-menu {
+    display:flex;
+    justify-content: space-between;
+
+    
 }
 
 .menu {
@@ -19,6 +27,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 gap: 5rem;
+padding: 10px;
 font-family: 'Inter', sans-serif;
 font-size: 40px;
 }
