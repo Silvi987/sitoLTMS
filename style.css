@@ -40,6 +40,11 @@ font-size: 40px;
   padding: 5px 10px;
 }
 
+.icone-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
 .submenu {
  list-style: none;
  display: none;
