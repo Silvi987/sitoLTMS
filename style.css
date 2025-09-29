@@ -3,6 +3,34 @@ body {
     background: radial-gradient(circle,rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
 
+.submenu {
+   
+    
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3e4dc3;
+  padding: 10px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+  color: #3e4dc3;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
 .mood-orizzontale {
 text-align: center;
 border-radius:75px;
@@ -84,27 +112,6 @@ position: relative;
     height: 1200px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: #3e4dc3;
-  padding: 10px;
-  color: white;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s, background-color 0.3s;
-}
-
-nav a:hover {
-  color: #3e4dc3;
-  background-color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
 
 figure {
   max-width: 400px;
@@ -127,7 +134,3 @@ figcaption {
   color: #888;
 }
 
-.submenu {
-   
-    
-}
