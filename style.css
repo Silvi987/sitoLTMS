@@ -70,4 +70,14 @@ position: relative;
 
 .testo-fit-box {
     position: absolute;
+    font-size: 32px;
+}
+
+#base {
+    background-color: #D4DEFE;
+}
+
+.blog {
+    background: #2339B6;
+    background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
 }
