@@ -3,7 +3,6 @@ body {
     background: radial-gradient(circle,rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
 
-
 nav {
   height: 134px;
   display: flex;
@@ -13,17 +12,12 @@ nav {
   border-bottom-left-radius: 55px;
   border-bottom-right-radius: 55px;
   
-  
-  
 }
 
-
-
-
-
 .icone-menu {
-    display: flex;
+    display:flex;
     justify-content: space-between;
+
     
 }
 
@@ -60,9 +54,27 @@ width: 100%;
   padding: 50px 5px;
 }
 
+.icone-menu {
+ max-width: 100px;
+ max-height: 100px;
+}
+
 .submenu {
  list-style: none;
  display: none;
+}
+
+h1 {
+    font-family: 'Delius Swash Caps', serif;
+    font-size: 96px;
+    color: #F9FAFD;
+}
+
+.first {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mood-orizzontale {
@@ -70,18 +82,25 @@ text-align: center;
 border-radius:75px;
 height: 864px;
 width: 1296px;
-overflow: hidden; 
+overflow: hidden;
 }
 
 .mood-orizzontale img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
 } 
 
 #acqua {
     opacity: 45%;
+}
+
+.inner-first {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 30rem;
 }
 
 .mood-palline {
@@ -144,10 +163,11 @@ position: relative;
     background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
     width: 1702px;
     height: 1200px;
+    border-radius:75px;
 }
 
 figure {
-  max-width: 400px;
+  max-width: 380px;
   margin: 20px auto;     /* centra il blocco */
   text-align: center;    /* centra testo e immagine */
   font-family: Arial, sans-serif;
@@ -167,3 +187,10 @@ figcaption {
   color: #888;
 }
 
+footer {
+    background: #2339B6;
+    background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
+    height: 320px;
+    border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+}
