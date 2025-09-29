@@ -50,23 +50,43 @@ font-size: 40px;
  display: none;
 }
 
+h1 {
+    font-family: 'Delius Swash Caps', serif;
+    font-size: 96px;
+    color: #F9FAFD;
+}
+
+.first {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .mood-orizzontale {
 text-align: center;
 border-radius:75px;
 height: 864px;
 width: 1296px;
-overflow: hidden; 
+overflow: hidden;
 }
 
 .mood-orizzontale img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
 } 
 
 #acqua {
     opacity: 45%;
+}
+
+.inner-first {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 30rem;
 }
 
 .mood-palline {
@@ -133,7 +153,7 @@ position: relative;
 }
 
 figure {
-  max-width: 400px;
+  max-width: 380px;
   margin: 20px auto;     /* centra il blocco */
   text-align: center;    /* centra testo e immagine */
   font-family: Arial, sans-serif;
