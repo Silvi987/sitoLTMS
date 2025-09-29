@@ -131,6 +131,13 @@ h2 {
   align-items: center;
 }
 
+.third {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
 .mood-verticale {
 text-align: center;
 height: 1296px ;
