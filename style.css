@@ -11,14 +11,6 @@ nav {
   padding: 10px 40px;
   border-bottom-left-radius: 55px;
   border-bottom-right-radius: 55px;
-  
-}
-
-.icone-menu {
-    display:flex;
-    justify-content: space-between;
-
-    
 }
 
 .menu {
@@ -33,7 +25,7 @@ font-size: 40px;
 }
 
 .menu >li {
-    position: relative;
+ position: relative;
 }
 
 .menu > li > a {
@@ -46,6 +38,11 @@ font-size: 40px;
   color: #3B3B3B;
   background-color: #D4DEFE;
   padding: 50px 5px;
+}
+
+.icone-menu {
+ max-width: 100px;
+ max-height: 100px;
 }
 
 .submenu {
