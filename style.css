@@ -3,25 +3,33 @@ body {
     background: radial-gradient(circle,rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
 
-.menu {
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2339B6;
+  padding: 10px 40px;
+}
+
+.menu {
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2rem;
 }
 
 .menu >li {
     position: relative;
 }
 
-.submenu {
- text-decoration: none;
-    
+.menu > li > a {
+    color: #F9FAFD;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: #3e4dc3;
-  padding: 10px;
-  color: white;
+.submenu {
+ list-style: none;
+    
 }
 
 nav a {
