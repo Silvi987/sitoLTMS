@@ -4,7 +4,7 @@ body {
 }
 
 .submenu {
-   
+ text-decoration: none;
     
 }
 
@@ -111,7 +111,6 @@ position: relative;
     width: 1702px;
     height: 1200px;
 }
-
 
 figure {
   max-width: 400px;
