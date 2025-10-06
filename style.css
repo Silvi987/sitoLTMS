@@ -225,22 +225,6 @@ h2 {
   list-style: none;
 }
 
-#base {
-  background-color: #D4DEFE;
-}
-
-.blog {
-  display: grid;
-  place-items: center;
-  background: #2339B6;
-  background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
-  width: 1702px;
-  height: 1200px;
-  border-radius: 75px;
-  margin: 0 auto;
-  margin-top: 215px;
-}
-
 figure {
   max-width: 380px;
   margin: 20px auto;
@@ -265,7 +249,48 @@ figcaption {
   text-align: center;
 }
 
+#base {
+  background-color: #D4DEFE;
+}
+
+.blog {
+  display: grid;
+  place-items: center;
+  background: #2339B6;
+  background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
+  width: 1702px;
+  height: 1200px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-top: 215px;
+}
+
+.personalizzata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9FAFD;
+  border-width: 32px;
+  border-style: solid;
+  border-color: #2339B6;
+  width: 1702px;
+  height: 1200px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
 footer {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  width: 100%;
   background: #2339B6;
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
   height: 320px;
@@ -275,6 +300,10 @@ footer {
 
 p {
   text-align: left;
+  font-size: 32px;
+  font-style: Arial, sans-serif;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 button {
