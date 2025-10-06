@@ -3,6 +3,7 @@ body {
     background: radial-gradient(circle,rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
 
+
 nav {
   height: 134px;
   display: flex;
@@ -60,7 +61,10 @@ width: 100%;
  display: none;
 }
 
+
+
 /* Tablet Mobile Style*/
+@media (min-width: 769px) {
 
 .header-menu-tablet-mobile {
   display: flex;
@@ -70,7 +74,11 @@ width: 100%;
 
 .header-button {
   text-decoration: none;
+  
+  
 }
+
+
 
 .tablet-mobile {
   display: flex;
@@ -81,9 +89,13 @@ width: 100%;
 
 .hidden-menu {
   list-style: none;
+  display: none; /* non fa visualizzare lista menu hamburger*/
 }
 
-/* Tablet Mobile Style*/ 
+}
+
+/* Chiusura-Tablet Mobile Style*/
+
 
 
 h1 {
