@@ -17,11 +17,7 @@ nav {
 .icone-menu {
     display:flex;
     justify-content: space-between;
-
-    
 }
-
-
 
 .menu {
 list-style: none;
@@ -63,6 +59,32 @@ width: 100%;
  list-style: none;
  display: none;
 }
+
+/* Tablet Mobile Style*/
+
+.header-menu-tablet-mobile {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2339B6;
+}
+
+.header-button {
+  text-decoration: none;
+}
+
+.tablet-mobile {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2339B6;
+  list-style: none;
+}
+
+.hidden-menu {
+  list-style: none;
+}
+
+/* Tablet Mobile Style*/ 
+
 
 h1 {
     font-family: 'Delius Swash Caps', serif;
