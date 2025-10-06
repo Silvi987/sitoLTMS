@@ -238,7 +238,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
   margin-bottom: 220px;
 }
 
@@ -269,11 +268,18 @@ h2 {
 }
 
 .testo-fit-box {
-  position: absolute;
   font-size: 32px;
   padding-top: 102px;
   padding-left: 75px;
   padding-right: 75px;
+}
+
+.tipologia-pelle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
 }
 
 .sottotitolo1 {
@@ -291,6 +297,19 @@ h2 {
   justify-content: center;
   gap: 65px;
   list-style: none;
+}
+
+.sottotitolo2 {
+  background-color: #D4DEFE;
+  color: #3B3B3B;
+  border-radius: 200px;
+  width: 1430px;
+  height: 216px;
+  margin: 0 auto;
+  text-align: center;
+  border-width: 32px;
+  border-style: solid;
+  border-color: #2339B6;
 }
 
 figure {
