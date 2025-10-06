@@ -3,6 +3,26 @@ body {
   background: radial-gradient(circle, rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
 
+p {
+  text-align: left;
+  font-size: 32px;
+  font-style: Arial, sans-serif;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+button {
+  background-color: #2339B6;
+  border-radius: 50px;
+  color: #F9FAFD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding: 20px;
+  font-size: 42px;
+  border-style: none;
+}
+
 
 .menu-desktop {
   height: 134px;
@@ -290,30 +310,10 @@ footer {
   padding: 10px;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
+  height: 320px;
   width: 100%;
   background: #2339B6;
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
-  height: 320px;
   border-top-left-radius: 75px;
   border-top-right-radius: 75px;
-}
-
-p {
-  text-align: left;
-  font-size: 32px;
-  font-style: Arial, sans-serif;
-  padding-left: 75px;
-  padding-right: 75px;
-}
-
-button {
-  background-color: #2339B6;
-  border-radius: 50px;
-  color: #F9FAFD;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding: 20px;
-  font-size: 42px;
-  border-style: none;
 }
