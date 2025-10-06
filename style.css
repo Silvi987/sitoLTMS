@@ -1,10 +1,10 @@
 body {
-    background: #F9FAFD;
-    background: radial-gradient(circle,rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
+  background: #F9FAFD;
+  background: radial-gradient(circle, rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
 
 
-nav {
+.menu-desktop {
   height: 134px;
   display: flex;
   justify-content: space-between;
@@ -12,85 +12,86 @@ nav {
   padding: 10px 40px;
   border-bottom-left-radius: 55px;
   border-bottom-right-radius: 55px;
-  
+
 }
 
 .icone-menu {
-    display:flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu {
-list-style: none;
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 5rem;
-padding: 10px;
-font-family: 'Inter', sans-serif;
-font-size: 40px;
-width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  width: 100%;
 }
 
-.menu >li {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    gap: 0px;
+.menu>li {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
 }
 
-.menu > li > a {
-    color: #F9FAFD;
-    text-decoration: none;
-    transition: 0.3s;
+.menu>li>a {
+  color: #F9FAFD;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-.menu > li.voci-menu > a:hover {
+.menu>li.voci-menu>a:hover {
   color: #3B3B3B;
   background-color: #D4DEFE;
   padding: 50px 5px;
 }
 
 .icone-menu {
- max-width: 100px;
- max-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .submenu {
- list-style: none;
- display: none;
+  list-style: none;
+  display: none;
 }
-
-
-
-/* Tablet Mobile Style*/
-@media (min-width: 769px) {
 
 .header-menu-tablet-mobile {
-  display: flex;
-  justify-content: space-between;
-  background-color: #2339B6;
+  display: none;
 }
 
-.header-button {
-  text-decoration: none;
-  
-  
-}
+/* Tablet Mobile Style*/
+@media (max-width: 834px) {
+
+  .menu-desktop {
+    display: none;
+  }
+
+  .header-menu-tablet-mobile {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2339B6;
+  }
+
+  .header-button {
+    text-decoration: none;
+
+
+  }
 
 
 
-.tablet-mobile {
-  display: flex;
-  justify-content: space-between;
-  background-color: #2339B6;
-  list-style: none;
-}
-
-.hidden-menu {
-  list-style: none;
-  display: none; /* non fa visualizzare lista menu hamburger*/
-}
+  .tablet-mobile {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2339B6;
+    list-style: none;
+  }
 
 }
 
@@ -99,24 +100,24 @@ width: 100%;
 
 
 h1 {
-    font-family: 'Delius Swash Caps', serif;
-    font-size: 96px;
-    color: #F9FAFD;
+  font-family: 'Delius Swash Caps', serif;
+  font-size: 96px;
+  color: #F9FAFD;
 }
 
 .first {
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .mood-orizzontale {
-text-align: center;
-border-radius:75px;
-height: 864px;
-width: 1296px;
-overflow: hidden;
+  text-align: center;
+  border-radius: 75px;
+  height: 864px;
+  width: 1296px;
+  overflow: hidden;
 }
 
 .mood-orizzontale img {
@@ -124,39 +125,39 @@ overflow: hidden;
   height: auto;
   object-fit: cover;
   display: block;
-} 
+}
 
 #acqua {
-    opacity: 45%;
+  opacity: 45%;
 }
 
 .inner-first {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    gap: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30rem;
 }
 
 .mood-palline {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    text-align: center;
-    height: 482px;
-    width: 482px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  height: 482px;
+  width: 482px;
 }
 
 .mood-palline img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 h2 {
-    font-family: 'Edu TAS Beginner',serif;
-    font-size: 64px;
-    text-align: center;
+  font-family: 'Edu TAS Beginner', serif;
+  font-size: 64px;
+  text-align: center;
 }
 
 .second {
@@ -176,11 +177,11 @@ h2 {
 }
 
 .mood-verticale {
-text-align: center;
-height: 1296px ;
-width: 864px;
-border-radius:75px;
-overflow: hidden;
+  text-align: center;
+  height: 1296px;
+  width: 864px;
+  border-radius: 75px;
+  overflow: hidden;
 }
 
 .mood-verticale img {
@@ -188,52 +189,54 @@ overflow: hidden;
   height: 100%;
   object-fit: cover;
   display: block;
-} 
+}
 
 .box-text-button {
-text-align: center;
-background-color: #F9FAFD;
-border-radius:75px;
-width: 718px;
-height: 889px;
-overflow-wrap: break-word;
-overflow: hidden;
-position: relative;
+  text-align: center;
+  background-color: #F9FAFD;
+  border-radius: 75px;
+  width: 718px;
+  height: 889px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  position: relative;
 }
 
 .testo-fit-box {
-    position: absolute;
-    font-size: 32px;
-    padding-top: 102px;
-    padding-left: 75px;
-    padding-right: 75px;
+  position: absolute;
+  font-size: 32px;
+  padding-top: 102px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .skin-type {
   display: flex;
-    flex-direction:row;
-    justify-content: center;
-    gap: 65px;
-    list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  gap: 65px;
+  list-style: none;
 }
 
 #base {
-    background-color: #D4DEFE;
+  background-color: #D4DEFE;
 }
 
 .blog {
-    display: flex;
-    background: #2339B6;
-    background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
-    width: 1702px;
-    height: 1200px;
-    border-radius:75px;
+  display: flex;
+  background: #2339B6;
+  background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
+  width: 1702px;
+  height: 1200px;
+  border-radius: 75px;
 }
 
 figure {
   max-width: 380px;
-  margin: 20px auto;     /* centra il blocco */
-  text-align: center;    /* centra testo e immagine */
+  margin: 20px auto;
+  /* centra il blocco */
+  text-align: center;
+  /* centra testo e immagine */
   font-family: Arial, sans-serif;
   color: #555;
 }
@@ -253,10 +256,10 @@ figcaption {
 }
 
 footer {
-    background: #2339B6;
-    background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
-    height: 320px;
-    border-top-left-radius: 75px;
+  background: #2339B6;
+  background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
+  height: 320px;
+  border-top-left-radius: 75px;
   border-top-right-radius: 75px;
 }
 
