@@ -3,6 +3,26 @@ body {
   background: radial-gradient(circle, rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
 }
 
+p {
+  text-align: left;
+  font-size: 32px;
+  font-style: Arial, sans-serif;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+button {
+  background-color: #2339B6;
+  border-radius: 50px;
+  color: #F9FAFD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding: 20px;
+  font-size: 42px;
+  border-style: none;
+}
+
 .listen-to-your-skin-desktop {
 font-style: 'Delius Swash Caps';
 font-size: 128px;
@@ -188,6 +208,8 @@ h2 {
   align-items: center;
   margin-left: 328px;
   margin-right: 328px;
+  margin-top: 55px;
+  margin-bottom: 100px;
 }
 
 .third {
@@ -195,6 +217,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  margin-bottom: 220px;
 }
 
 .mood-verticale {
@@ -231,25 +254,21 @@ h2 {
   padding-right: 75px;
 }
 
+.sottotitolo1 {
+  background-color: #2339B6;
+  color: #F9FAFD;
+  border-radius: 200px;
+  width: 1430px;
+  height: 216px;
+  margin: 0 auto;
+}
+
 .skin-type {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 65px;
   list-style: none;
-}
-
-#base {
-  background-color: #D4DEFE;
-}
-
-.blog {
-  display: flex;
-  background: #2339B6;
-  background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
-  width: 1702px;
-  height: 1200px;
-  border-radius: 75px;
 }
 
 figure {
@@ -276,26 +295,80 @@ figcaption {
   text-align: center;
 }
 
-footer {
+#base {
+  background-color: #D4DEFE;
+}
+
+.blog {
+  display: grid;
+  place-items: center;
   background: #2339B6;
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
+  width: 1702px;
+  height: 1200px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-top: 215px;
+}
+
+.personalizzata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9FAFD;
+  border-width: 32px;
+  border-style: solid;
+  border-color: #2339B6;
+  width: 1702px;
+  height: 1200px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
   height: 320px;
+  width: 100%;
+  background: #2339B6;
+  background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
   border-top-left-radius: 75px;
   border-top-right-radius: 75px;
 }
 
-p {
-  text-align: left;
+span {
+  font-size: 40px;
+  font-style: 'Edu TAS Beginner', italic;
 }
 
-button {
-  background-color: #2339B6;
-  border-radius: 50px;
-  color: #F9FAFD;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding: 20px;
-  font-size: 42px;
-  border-style: none;
+.colonna-sinistra {
+  display: flex;
+  flex-direction: column;
 }
+
+.colonna-centrale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  gap: 5em;
+}
+
+.colonna-destra {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
