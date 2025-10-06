@@ -194,6 +194,8 @@ h2 {
   align-items: center;
   margin-left: 328px;
   margin-right: 328px;
+  margin-top: 55px;
+  margin-bottom: 100px;
 }
 
 .third {
@@ -201,6 +203,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  margin-bottom: 220px;
 }
 
 .mood-verticale {
@@ -235,6 +238,15 @@ h2 {
   padding-top: 102px;
   padding-left: 75px;
   padding-right: 75px;
+}
+
+.sottotitolo1 {
+  background-color: #2339B6;
+  color: #F9FAFD;
+  border-radius: 200px;
+  width: 1430px;
+  height: 216px;
+  margin: 0 auto;
 }
 
 .skin-type {
