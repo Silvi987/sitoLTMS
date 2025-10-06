@@ -15,10 +15,10 @@ button {
   background-color: #2339B6;
   border-radius: 50px;
   color: #F9FAFD;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
   font-size: 42px;
   border-style: none;
 }
@@ -208,6 +208,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 120px;
   margin-left: 328px;
   margin-right: 328px;
   margin-top: 55px;
@@ -218,6 +219,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 120px;
   margin-bottom: 220px;
 }
 
@@ -237,15 +239,19 @@ h2 {
 }
 
 .box-text-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
   text-align: center;
   background-color: #F9FAFD;
   border-radius: 75px;
   width: 718px;
   height: 889px;
   overflow-wrap: break-word;
-  overflow: hidden;
-  position: relative;
 }
+
 
 .testo-fit-box {
   font-size: 32px;
