@@ -254,6 +254,14 @@ h2 {
   padding-right: 75px;
 }
 
+.tipologia-pelle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+
 .sottotitolo1 {
   background-color: #2339B6;
   color: #F9FAFD;
@@ -269,6 +277,19 @@ h2 {
   justify-content: center;
   gap: 65px;
   list-style: none;
+}
+
+.sottotitolo2 {
+  background-color: #D4DEFE;
+  color: #3B3B3B;
+  border-radius: 200px;
+  width: 1430px;
+  height: 216px;
+  margin: 0 auto;
+  text-align: center;
+  border-width: 32px;
+  border-style: solid;
+  border-color: #2339B6;
 }
 
 figure {
