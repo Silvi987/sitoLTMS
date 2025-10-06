@@ -235,3 +235,15 @@ footer {
     border-top-left-radius: 75px;
   border-top-right-radius: 75px;
 }
+
+p {
+  text-align: left;
+}
+
+button {
+  background-color: #2339B6;
+  border-radius: 50px;
+  color: #F9FAFD;
+  padding: 10px;
+  font-size: 42px;
+}
