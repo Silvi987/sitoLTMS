@@ -169,7 +169,7 @@ h2 {
 }
 
 .third {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 5rem;
@@ -222,6 +222,7 @@ position: relative;
 }
 
 .blog {
+    display: flex;
     background: #2339B6;
     background: linear-gradient(0deg,rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
     width: 1702px;
