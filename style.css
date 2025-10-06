@@ -64,6 +64,13 @@ body {
 .header-menu-tablet-mobile {
   display: none;
 }
+/*salto responsive stile font proporzionale intermedia*/
+@media (max-width: 1577px) {
+  .menu{
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  }
+}
 
 /* Tablet Mobile Style*/
 @media (max-width: 834px) {
