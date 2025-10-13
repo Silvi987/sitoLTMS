@@ -1,3 +1,7 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
 body {
   background: #F9FAFD;
   background: radial-gradient(circle, rgba(249, 250, 253, 1) 0%, rgba(205, 217, 255, 1) 100%);
@@ -376,12 +380,13 @@ figcaption {
 }
 
 .personalizzata {
+  --border-width: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #F9FAFD;
-  border-width: 32px;
+  border-width: var(--border-width);
   border-style: solid;
   border-color: #2339B6;
   width: 1702px;
@@ -389,6 +394,23 @@ figcaption {
   border-radius: 100px;
   margin: 0 auto;
   margin-top: 200px;
+  position: relative;
+}
+
+
+
+  
+  
+
+
+
+.registrati-button {
+
+ position: absolute;
+ bottom:0%;
+ right: 50%;
+ transform: translate(50% , calc(50% + var(--border-width) / 2));
+ 
 }
 
 footer {
