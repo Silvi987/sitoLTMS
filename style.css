@@ -305,6 +305,10 @@ h2 {
   list-style: none;
 }
 
+
+
+
+
 .sottotitolo2 {
   background-color: #D4DEFE;
   color: #3B3B3B;
@@ -313,9 +317,22 @@ h2 {
   height: 216px;
   margin: 0 auto;
   text-align: center;
-  border-width: 32px;
+  border-width: var(--border-width);
   border-style: solid;
   border-color: #2339B6;
+}
+
+.test-pelle {
+  --border-width: 32px;
+  position: relative;
+}
+
+.vaialtest  {
+  position: absolute;
+ bottom: 0;
+ right: 50%;
+ transform: translate(50% , calc(50% - var(--border-width) / 2));
+ 
 }
 
 figure {
