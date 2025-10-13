@@ -164,11 +164,20 @@ font-size: 48px;
 /* Chiusura-Tablet Mobile Style*/
 
 
+.bolle-img{
+
+}
+
 
 h1 {
   font-family: 'Delius Swash Caps', serif;
   font-size: 96px;
   color: #F9FAFD;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 .first {
@@ -195,6 +204,11 @@ h1 {
 
 #acqua {
   opacity: 45%;
+  position: relative;
+  width: 1296px;
+  height: 972px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .inner-first {
