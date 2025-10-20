@@ -485,6 +485,7 @@ font-size: 32px;
   height: 272px;
   text-align: center;
   overflow-wrap: break-word;
+  margin-top: 106px;
 }
 
 .title h1 {
@@ -588,6 +589,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .colonna-centrale {
@@ -612,5 +614,6 @@ span {
   justify-content: center;
   align-items: flex-end;
   text-align: right;
+  margin-top: 30px;
 }
 
