@@ -451,7 +451,6 @@ font-size: 32px;
  bottom:0%;
  right: 50%;
  transform: translate(50% , calc(50% + var(--border-width) / 2));
- 
 }
 
 /* CSS ABOUT */
@@ -536,12 +535,20 @@ font-size: 32px;
 .slideshow-container {
   margin-top: 96px;
   background-color: #2339B6;
-  color:#F9FAFD;
-  font-size: 32px;
   max-width: 1620px;
   border-radius: 100px;
 }
 
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.caption-slide {
+  color: #F9FAFD;
+  font-size: 32px;
+}
 
 /* CSS ABOUT FINE */
 
