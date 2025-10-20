@@ -574,7 +574,7 @@ span {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  gap: 5em;
+  gap: 7em;
 }
 
 .colonna-destra {
