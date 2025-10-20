@@ -215,10 +215,6 @@ h1 {
   position: absolute;
   bottom: 0; 
    transform: translate(0% , 50%);
-  
-  
-  
- 
 }
 
 .mood-palline {
@@ -296,9 +292,9 @@ h2 {
 
 .testo-fit-box {
   font-size: 32px;
-  padding-top: 102px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .tipologia-pelle {
