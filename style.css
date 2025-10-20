@@ -335,6 +335,9 @@ h2 {
 }
 
 
+
+
+
 .sottotitolo2 {
   background-color: #D4DEFE;
   color: #3B3B3B;
@@ -503,15 +506,44 @@ font-size: 32px;
   text-align: left;
 }
 
-.slideshow-container {
-  margin-top: 96px;
-  background-color: #2339B6;
-  color:#F9FAFD;
+.paragrafo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 32px;
-  max-width: 1620px;
-  border-radius: 100px;
 }
 
+.paragrafo2 p {
+  max-width: 1408px;
+}
+
+.step-base {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-family: 'Edu TAS Beginner', italic;
+  font-size: 40px;
+}
+
+.step-base img {
+  height: 380px;
+  width: 380px;
+}
+
+.paragrafo3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 84px;
+  margin-bottom: 200px;
+}
 
 /* CSS ABOUT FINE */
 
@@ -539,7 +571,6 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 30px;
 }
 
 .colonna-centrale {
@@ -555,7 +586,7 @@ span {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  gap: 7em;
+  gap: 5em;
 }
 
 .colonna-destra {
@@ -564,6 +595,5 @@ span {
   justify-content: center;
   align-items: flex-end;
   text-align: right;
-  margin-top: 30px;
 }
 
