@@ -414,12 +414,18 @@ figcaption {
   position: relative;
 }
 
+.registra-account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 1456px;
+  max-height: 194px;
+  gap: 178px;
+}
 
-
-  
-  
-
-
+.registra-account p {
+font-size: 32px;
+}
 
 .registrati-button {
  position: absolute;
