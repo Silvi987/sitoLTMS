@@ -566,6 +566,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .colonna-centrale {
@@ -590,5 +591,6 @@ span {
   justify-content: center;
   align-items: flex-end;
   text-align: right;
+  margin-top: 30px;
 }
 
