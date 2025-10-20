@@ -473,7 +473,8 @@ font-size: 32px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 106px;
+  margin-bottom: 88px;
+  gap: 110px;
 }
 
 .title {
@@ -482,7 +483,6 @@ font-size: 32px;
   border-radius: 200px;
   width: 1430px;
   height: 272px;
-  margin-bottom: 120px;
   text-align: center;
   overflow-wrap: break-word;
 }
@@ -497,6 +497,7 @@ font-size: 32px;
   justify-content: center;
   align-items: center;
   gap: 92px;
+  margin-bottom: 100px;
 }
 
 .testo-affiancato {
@@ -545,10 +546,19 @@ font-size: 32px;
 .slideshow-container {
   margin-top: 96px;
   background-color: #2339B6;
-  color:#F9FAFD;
-  font-size: 32px;
   max-width: 1620px;
   border-radius: 100px;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.caption-slide {
+  color: #F9FAFD;
+  font-size: 32px;
 }
 
 
