@@ -538,7 +538,10 @@ font-size: 32px;
   background-color: #2339B6;
   color:#F9FAFD;
   font-size: 32px;
+  max-width: 1620px;
+  border-radius: 100px;
 }
+
 
 /* CSS ABOUT FINE */
 
