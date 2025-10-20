@@ -243,6 +243,8 @@ h2 {
   text-align: center;
 }
 
+
+
 .second {
   display: flex;
   flex-direction: column;
@@ -390,11 +392,33 @@ figcaption {
   background: #2339B6;
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
   width: 1702px;
-  height: 1200px;
   border-radius: 100px;
   margin: 0 auto;
   margin-top: 215px;
+  display: grid;
+  padding: 300px;
+  gap: 100px;
 }
+
+.h2-titlebox{
+  
+}
+
+
+
+.block-b{
+margin-right: auto;
+background-color: #D4DEFE;
+color: #3B3B3B;
+}
+
+.block-b2 {
+margin-left: auto;
+background-color: #D83E5D;
+ 
+
+}
+
 
 .personalizzata {
   --border-width: 32px;
