@@ -422,7 +422,6 @@ figcaption {
 
 
 .registrati-button {
-
  position: absolute;
  bottom:0%;
  right: 50%;
@@ -482,6 +481,7 @@ footer {
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
   border-top-left-radius: 75px;
   border-top-right-radius: 75px;
+  margin-top: 143px;
 }
 
 span {
@@ -492,6 +492,7 @@ span {
 .colonna-sinistra {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .colonna-centrale {
@@ -499,6 +500,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 
 .social {
@@ -512,6 +514,7 @@ span {
 .colonna-destra {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-end;
   text-align: right;
 }
