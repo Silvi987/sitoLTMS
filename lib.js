@@ -107,6 +107,17 @@ document.addEventListener("DOMContentLoaded", function () {
   slides.forEach(function (slide, index) {
     // Per ogni slide, creiamo un nuovo elemento HTML <button>.
     var dot = document.createElement("button");
+    
+
+    //mantenere il primo dot attivo
+    var classi = slide.classList;
+    
+    if(classi.contains("active")) {
+      dot.classList.add('active');
+
+    }
+
+    
 
     // Aggiungiamo la classe CSS '.dot' al pulsante appena creato per dargli uno stile.
     dot.classList.add("dot");
@@ -116,10 +127,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Aggiungiamo un "ascoltatore di eventi" al pallino.
     // Quando l'utente fa "click" su questo specifico pallino...
-    dot.addEventListener("click", function () {
+    dot.addEventListener("click", function active() {
       // ...chiamiamo la funzione 'activateSlide' passando l'indice
       // della slide a cui questo pallino corrisponde.
       activateSlide(index);
+      // Calcola la posizione da scrollare
+      
+      
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach(d => d.classList.remove('active'));
+    dot.classList.add('active');
+
+    
+  
     });
   });
 });
+
+

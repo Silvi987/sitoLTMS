@@ -560,6 +560,7 @@ font-size: 32px;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 
 .slide {
@@ -568,6 +569,7 @@ font-size: 32px;
   flex-shrink: 0;
   flex-basis: 1620px;
   width: 100%;
+  scroll-snap-align: start;
 }
 
 .slide img, .caption-slide {
@@ -590,11 +592,20 @@ font-size: 32px;
 
 .dot{
   background-color: #F9FAFD;
+  opacity: 0.5;
   width: 20px;
   height: 100%;
   margin: 10px;
   border-radius: 100px;
+  cursor: pointer;
 }
+
+.dot.active {
+  opacity: 1; /* per pallino acceso */
+}
+
+
+
 
 
 /* CSS ABOUT FINE */
