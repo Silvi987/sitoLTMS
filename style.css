@@ -531,8 +531,6 @@ text-size-adjust: calc();
   max-width: 1620px;
   border-radius: 100px;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 60px;
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -542,6 +540,7 @@ text-size-adjust: calc();
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   justify-content: center;
+  scrollbar-width: none;
 }
 
 .slide {
@@ -589,9 +588,17 @@ text-size-adjust: calc();
   justify-content: space-between;
 }
 
+.slider-nav button {
+  cursor: pointer;
+}
+
 .slider-pagination {
   position: absolute;
   bottom: 0;
+}
+
+.slider-dots {
+  display: flex;
 }
 
 .slider-dots .dot {
