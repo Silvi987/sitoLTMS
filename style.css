@@ -551,13 +551,11 @@ font-size: 32px;
   background-color: #2339B6;
   max-width: 1620px;
   border-radius: 100px;
-  position: relative;
   text-align: center;
-  overflow: hidden;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .slider {
@@ -598,13 +596,19 @@ font-size: 32px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
+}
+
+.caption-slide p {
   color: #F9FAFD;
   font-size: 32px;
+  margin-top: 100px;
 }
 
 .slider-nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-content: space-between;
 }
 
 .slider-pagination {
