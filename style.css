@@ -33,7 +33,7 @@ font-size: 128px;
 }
 
 .menu-desktop {
-  height: 134px;
+  max-height: 134px;
   display: flex;
   justify-content: space-between;
   background-color: #2339B6;
@@ -129,7 +129,6 @@ font-size: 128px;
 display: none;
 }
 
-
 .listen-to-your-skin-tablet {
 font-style: 'Delius Swash Caps';
 font-size: 48px;
@@ -150,8 +149,6 @@ font-size: 48px;
 
 
   }
-
-
 
   .tablet-mobile {
     display: flex;
@@ -433,12 +430,13 @@ background-color: #D83E5D;
   flex-direction: column;
   justify-content: center;
   max-height: 1456px;
-  max-height: 194px;
+  max-height: 637px;
   gap: 178px;
 }
 
 .registra-account p {
 font-size: 32px;
+text-size-adjust: calc();
 }
 
 .registrati-button {
@@ -658,4 +656,3 @@ span {
   text-align: right;
   margin-top: 30px;
 }
-
