@@ -600,6 +600,10 @@ font-size: 32px;
   font-size: 32px;
 }
 
+.caption-slide p {
+  margin-bottom: 60px;
+}
+
 .slider-nav {
   position: absolute;
 }
