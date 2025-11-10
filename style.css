@@ -201,7 +201,7 @@ h1 {
 #acqua {
   opacity: 45%;
   position: relative;
-  width: 1296px;
+  max-width: 1296px;
   height: 972px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -271,7 +271,7 @@ h2 {
 .mood-verticale {
   text-align: center;
   height: 1296px;
-  width: 864px;
+  max-width: 864px;
   border-radius: 75px;
   overflow: hidden;
 }
