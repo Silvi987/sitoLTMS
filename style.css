@@ -547,6 +547,7 @@ font-size: 32px;
 .slideshow-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 96px;
   background-color: #2339B6;
   max-width: 1620px;

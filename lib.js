@@ -42,6 +42,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // il contenitore fino a rendere completamente visibile la slide richiesta,
     // allineandola al centro orizzontale della viewport.
 
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach(d => d.classList.remove('active'));
+    dots[currentIndex].classList.add('active');
+
     slides[index].scrollIntoView({
       behavior: "smooth",
       inline: "center",
@@ -131,15 +135,6 @@ document.addEventListener("DOMContentLoaded", function () {
       // ...chiamiamo la funzione 'activateSlide' passando l'indice
       // della slide a cui questo pallino corrisponde.
       activateSlide(index);
-      // Calcola la posizione da scrollare
-      
-      
-    const dots = document.querySelectorAll('.dot');
-    dots.forEach(d => d.classList.remove('active'));
-    dot.classList.add('active');
-
-    
-  
     });
   });
 });
