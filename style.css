@@ -201,7 +201,7 @@ h1 {
 #acqua {
   opacity: 45%;
   position: relative;
-  width: 1296px;
+  max-width: 1296px;
   height: 972px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
