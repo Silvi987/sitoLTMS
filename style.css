@@ -607,25 +607,32 @@ font-size: 32px;
 
 .slider-nav {
   position: absolute;
+  border-radius: 100%;
 }
 
 .slider-pagination {
   position: absolute;
   bottom: 0;
+  
+  
 }
 
 .dot{
   background-color: #F9FAFD;
   opacity: 0.5;
-  width: 20px;
-  height: 100%;
+  width: 70px;
+  height: 70px;
   margin: 10px;
-  border-radius: 100px;
   cursor: pointer;
+  border-radius: 100%;
+  
+  
+  
 }
 
 .dot.active {
   opacity: 1; /* per pallino acceso */
+  
 }
 
 /* CSS ABOUT FINE */
