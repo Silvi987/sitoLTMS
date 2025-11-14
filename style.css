@@ -98,7 +98,7 @@ font-size: 128px;
 }
 /*salto responsive stile font proporzionale intermedia*/
 
-@media (max-width: 1614px) and (min-width: 1213px) {
+@media (max-width: 1920px) and (min-width: 835px) {
   .menu {
     font-size: 30px;
     justify-content: space-between;
@@ -107,7 +107,7 @@ font-size: 128px;
 }
 
 /* Intervallo: da 1112px a 1212px */
-@media (max-width: 1212px) and (min-width: 1112px) {
+@media (max-width: 834px) and (min-width: 376px) {
   .menu {
     font-size: 25px;
     justify-content: space-between;
@@ -116,7 +116,7 @@ font-size: 128px;
 }
 
 /* Intervallo: fino a 1111px */
-@media (max-width: 1111px) {
+@media (max-width: 375px) {
   .menu {
     font-size: 15px;
     justify-content: space-between;
