@@ -455,19 +455,19 @@ font-size: 1.7vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 88px;
-  gap: 110px;
+  margin-bottom: 4.6vw;
+  gap: 5.7vw;
 }
 
 .title {
   background-color: #2339B6;
   color: #F9FAFD;
-  border-radius: 200px;
-  width: 1430px;
-  height: 272px;
+  border-radius: 10.4vw;
+  width: 74.5vw;
+  height: 14.2vw;
   text-align: center;
   overflow-wrap: break-word;
-  margin-top: 106px;
+  margin-top: 5.5vw;
 }
 
 .title h1 {
@@ -479,14 +479,14 @@ font-size: 1.7vw;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 92px;
-  margin-bottom: 100px;
+  gap: 4.8vw;
+  margin-bottom: 5.2vw;
 }
 
 .testo-affiancato {
-  max-width: 589px;
+  width: 30.7vw;
   text-align: left;
-  font-size: 32px;
+  font-size: 1.7vw;
 }
 
 .paragrafo2 {
@@ -494,11 +494,11 @@ font-size: 1.7vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 1.7vw;
 }
 
 .paragrafo2 p {
-  max-width: 1408px;
+  width: 73.3vw;
 }
 
 .step-base {
@@ -506,15 +506,15 @@ font-size: 1.7vw;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  gap: 30px;
+  gap: 1.6vw;
   list-style: none;
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin-top: 2.6vw;
+  margin-bottom: 3.6vw;
 }
 
 .step-base img {
-  height: 380px;
-  width: 380px;
+  height: 19.8vw;
+  width: 19.8vw;
 }
 
 .paragrafo3 {
@@ -522,18 +522,18 @@ font-size: 1.7vw;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 84px;
-  margin-bottom: 200px;
+  gap: 4.4vw;
+  margin-bottom: 10.4vw;
 }
 
 .slideshow-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 96px;
+  margin-top: 5.9vw;
   background-color: #2339B6;
-  max-width: 1620px;
-  border-radius: 100px;
+  width: 84.4vw;
+  border-radius: 5.2vw;
   position: relative;
   text-align: center;
   overflow: hidden;
@@ -563,23 +563,19 @@ font-size: 1.7vw;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   transform: scale(0.8);
-  
 }
-
-
 
 .slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1620px;
+  width: 84.4vw;
   flex-shrink: 0;
-  flex-basis: 1620px;
+  flex-basis: 84.4vw;
   width: 100%;
   scroll-snap-align: start;
-  margin-top: 80px;
-  margin-bottom: 100px;
-  
+  margin-top: 4.2vw;
+  margin-bottom: 5.2vw;
 }
 
 .slide img, .caption-slide {
@@ -588,9 +584,9 @@ font-size: 1.7vw;
 
 .slider-container-img {
   text-align: center;
-  height: 840px;
-  width: 664px;
-  border-radius: 75px;
+  height: 43.7vw;
+  width: 34.6vw;
+  border-radius: 3.9vw;
   overflow: hidden;
 }
 
