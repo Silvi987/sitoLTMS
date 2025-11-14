@@ -24,10 +24,10 @@ button {
   background-color: #2339B6;
   border-radius: 2.6vw;
   color: #F9FAFD;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-top: 0.8vw;
+  padding-bottom: 0.8vw;
+  padding-left: 1.8vw;
+  padding-right: 1.8vw;
   font-size: 2.2vw;
   border-style: none;
 }
@@ -301,6 +301,7 @@ h2 {
 }
 
 .sottotitolo1 {
+  font-size: 3.3vw;
   background-color: #2339B6;
   color: #F9FAFD;
   border-radius: 10.4vw;
@@ -310,15 +311,31 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .skin-type {
+  font-family: 'Edu TAS Beginner', serif;
+  font-weight: 500;
+  font-size: 2.1vw;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 3.4vw;
   list-style: none;
+}
+
+figure {
+  margin: 1vw auto;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.4vw;
+}
+
+figcaption {
+  margin-top: 0.4vw;
+  color: #3B3B3B;
 }
 
 .sottotitolo2 {
@@ -326,7 +343,7 @@ h2 {
   color: #3B3B3B;
   border-radius: 10.4vw;
   width: 74.5vw;
-  height: 11.2vw;
+  height: 13vw;
   margin: 0 auto;
   text-align: center;
   border-width: var(--border-width);
@@ -344,34 +361,9 @@ h2 {
 
 .vaialtest  {
   position: absolute;
- bottom: 0;
- right: 50%;
- transform: translate(50% , calc(50% - var(--border-width) / 2));
- 
-}
-
-figure {
-  max-width: 380px;
-  margin: 20px auto;
-  /* centra il blocco */
-  text-align: center;
-  /* centra testo e immagine */
-  font-family: Arial, sans-serif;
-  color: #555;
-}
-
-figure img {
-  width: 100%;
-  height: auto;
-  border-radius: 0.4vw;
-}
-
-figcaption {
-  margin-top: 0.4vw;
-  font-size: 2.1vw;
-  font-style: italic;
-  color: #3B3B3B;
-  text-align: center;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50% , calc(50% - var(--border-width) / 2));
 }
 
 #base {
@@ -379,21 +371,30 @@ figcaption {
 }
 
 .blog {
-  display: grid;
-  place-items: center;
-  background: #2339B6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
   width: 88.6vw;
   border-radius: 5.2vw;
   margin: 0 auto;
-  margin-top: 11.2vw;
-  display: grid;
-  padding: 300px;
-  gap: 5.2vw;
+  gap: 3vw;
 }
 
 .h2-titlebox{
+  margin-top: 3vw;
   text-align: center;
+}
+
+.blog-button {
+  font-family: 'Inter', sans-serif;
+  font-size: 3.3vw;
+  font-style: italic;
+  font-weight: 300;
+  width: 88.6vw;
+  display: grid;
+  padding: 50px 105px;
+  gap: 5.2vw;
 }
 
 .block-b{
