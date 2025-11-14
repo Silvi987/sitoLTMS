@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Edu+TAS+Beginner:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
 *,*::before,*::after {
   box-sizing: border-box;
   margin: 0;
@@ -21,19 +20,18 @@ p {
 
 button {
   background-color: #2339B6;
-  border-radius: 50px;
+  border-radius: 2.6vw;
   color: #F9FAFD;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 35px;
   padding-right: 35px;
-  font-size: 42px;
+  font-size: 2.2vw;
   border-style: none;
 }
 
 .listen-to-your-skin-desktop {
-font-style: 'Delius Swash Caps';
-font-size: 128px;
+font-size: 6.7vw;
 }
 
 .menu-desktop {
@@ -151,11 +149,7 @@ font-size: 48px;
 
   .header-button {
     text-decoration: none;
-
-
   }
-
-
 
   .tablet-mobile {
     display: flex;
@@ -169,8 +163,8 @@ font-size: 48px;
 /* Chiusura-Tablet Mobile Style*/
 
 h1 {
-  font-family: 'Delius Swash Caps', serif;
-  font-size: 96px;
+  font-family: serif;
+  font-size: 5vw;
   color: #F9FAFD;
   position: absolute;
   text-align: center;
@@ -190,8 +184,8 @@ h1 {
 .mood-orizzontale {
   text-align: center;
   border-radius: 75px;
-  height: 864px
-  width: 1296px;
+  height: 45vw;
+  width: 67.5vw;
   overflow: hidden;
 }
 
