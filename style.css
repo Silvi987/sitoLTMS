@@ -13,12 +13,14 @@ body {
 
 p {
   text-align: left;
-  font-style: Arial, sans-serif;
+  font-style: 'Inter', sans-serif;
   padding-left: 75px;
   padding-right: 75px;
 }
 
 button {
+  font-style: 'Inter', sans-serif;
+  font-weight: 500;
   background-color: #2339B6;
   border-radius: 2.6vw;
   color: #F9FAFD;
@@ -163,7 +165,7 @@ font-size: 48px;
 /* Chiusura-Tablet Mobile Style*/
 
 h1 {
-  font-family: serif;
+  font-family:'Delius Swash Caps', serif;
   font-size: 5vw;
   color: #F9FAFD;
   position: absolute;
@@ -209,7 +211,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 50rem;
+  gap: 41.7vw;
   position: absolute;
   bottom: 0; 
    transform: translate(0% , 50%);
@@ -232,8 +234,9 @@ h1 {
 }
 
 h2 {
-  font-family: serif;
-  font-size: 64px;
+  font-family: 'Edu TAS Beginner', serif;
+  font-size: 3.3vw;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -243,10 +246,8 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 6.25vw;
-  margin-left: 328px;
-  margin-right: 328px;
-  margin-top: 400px;
-  margin-bottom: 100px;
+  margin-top: 20.8vw;
+  margin-bottom: 5.2vw;
 }
 
 .third {
@@ -254,8 +255,8 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 6.25vw;
-  margin-bottom: 220px;
-  margin-top: 169px;
+  margin-bottom: 11.4vw;
+  margin-top: 8.8vw;
 }
 
 .mood-verticale {
@@ -276,22 +277,19 @@ h2 {
 .box-text-button {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 6vw;
-  text-align: center;
+  gap: 4vw;
   background-color: #F9FAFD;
   border-radius: 3.9vw;
   width: 37.4vw;
   height: 46.3vw;
-  overflow-wrap: break-word;
+  overflow: clip;
 }
 
 .testo-fit-box {
   font-size: 1.7vw;
-  padding-top: 102px;
-  padding-left: 75px;
-  padding-right: 75px;
+  font-family: 'Inter', sans-serif;
+  margin-top: 4vw;
 }
 
 .tipologia-pelle {
