@@ -96,7 +96,7 @@ font-size: 6.7vw;
 }
 /*salto responsive stile font proporzionale intermedia*/
 
-@media (max-width: 1614px) and (min-width: 1213px) {
+@media (max-width: 1920px) and (min-width: 835px) {
   .menu {
     font-size: 30px;
     justify-content: space-between;
@@ -105,7 +105,7 @@ font-size: 6.7vw;
 }
 
 /* Intervallo: da 1112px a 1212px */
-@media (max-width: 1212px) and (min-width: 1112px) {
+@media (max-width: 834px) and (min-width: 376px) {
   .menu {
     font-size: 25px;
     justify-content: space-between;
@@ -114,7 +114,7 @@ font-size: 6.7vw;
 }
 
 /* Intervallo: fino a 1111px */
-@media (max-width: 1111px) {
+@media (max-width: 375px) {
   .menu {
     font-size: 15px;
     justify-content: space-between;
@@ -605,25 +605,32 @@ font-size: 32px;
 
 .slider-nav {
   position: absolute;
+  border-radius: 100%;
 }
 
 .slider-pagination {
   position: absolute;
   bottom: 0;
+  
+  
 }
 
 .dot{
   background-color: #F9FAFD;
   opacity: 0.5;
-  width: 20px;
-  height: 100%;
+  width: 70px;
+  height: 70px;
   margin: 10px;
-  border-radius: 100px;
   cursor: pointer;
+  border-radius: 100%;
+  
+  
+  
 }
 
 .dot.active {
   opacity: 1; /* per pallino acceso */
+  
 }
 
 /* CSS ABOUT FINE */
