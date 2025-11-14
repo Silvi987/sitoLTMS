@@ -387,13 +387,9 @@ figcaption {
 }
 
 .blog-button {
-  font-family: 'Inter', sans-serif;
-  font-size: 3.3vw;
-  font-style: italic;
-  font-weight: 300;
   width: 88.6vw;
   display: grid;
-  padding: 50px 105px;
+  padding: 3.2vw 6.5vw;
   gap: 5.2vw;
 }
 
@@ -401,25 +397,32 @@ figcaption {
 margin-right: auto;
 background-color: #D4DEFE;
 color: #3B3B3B;
+font-family: 'Inter', sans-serif;
+font-size: 3.3vw;
+font-style: italic;
+font-weight: 300;
 }
 
 .block-b2 {
 margin-left: auto;
 background-color: #D83E5D;
+font-family: 'Inter', sans-serif;
+font-size: 3.3vw;
+font-style: italic;
+font-weight: 300;
 }
 
 .personalizzata {
   --border-width: 1.7vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #F9FAFD;
   border-width: var(--border-width);
   border-style: solid;
   border-color: #2339B6;
   width: 88.6vw;
-  height: 62.5vw;
+  height: 33.2vw;
   border-radius: 5.2vw;
   margin: 0 auto;
   margin-top: 10.4vw;
@@ -430,12 +433,12 @@ background-color: #D83E5D;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 75.8vw;
-  height: 10.1vw;
-  gap: 9.3vw;
+  gap: 5vw;
+  margin-top: 2vw;
 }
 
 .registra-account p {
+font-family: 'Inter', sans-serif;
 font-size: 1.7vw;
 }
 
@@ -619,8 +622,6 @@ font-size: 1.7vw;
 .slider-pagination {
   position: absolute;
   bottom: 0;
-  
-  
 }
 
 .dot{
@@ -651,27 +652,26 @@ font-size: 1.7vw;
 footer {
   display: flex;
   justify-content: space-between;
-  font-family: 'Inter', sans-serif;
-  font-size: 20px;
   height: 320px;
   width: 100%;
-  background: #2339B6;
+  font-family: 'Inter', sans-serif;
+  font-size: 1vw;
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
-  border-top-left-radius: 75px;
-  border-top-right-radius: 75px;
-  margin-top: 143px;
+  border-top-left-radius: 3.9vw;
+  border-top-right-radius: 3.9vw;
+  margin-top: 7.4vw;
 }
 
 span {
-  font-size: 40px;
-  font-style: 'Edu TAS Beginner', italic;
+  font-family: 'Edu TAS Beginner', serif;
+  font-size: 2.1vw;
 }
 
 .colonna-sinistra {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 1.6vw;
 }
 
 .colonna-centrale {
@@ -679,7 +679,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 2.6vw;
 }
 
 .social {
@@ -687,7 +687,7 @@ span {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  gap: 5em;
+  gap: 4.2vw;
 }
 
 .colonna-destra {
@@ -696,6 +696,6 @@ span {
   justify-content: center;
   align-items: flex-end;
   text-align: right;
-  margin-top: 30px;
+  margin-top: 1.6vw;
 }
 
