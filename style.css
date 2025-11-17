@@ -41,10 +41,9 @@ font-size: 6.7vw;
   display: flex;
   justify-content: space-between;
   background-color: #2339B6;
-  padding: 10px 40px;
-  border-bottom-left-radius: 55px;
-  border-bottom-right-radius: 55px;
-
+  padding: 0.5vw 2.1vw;
+  border-bottom-left-radius: 2.9vw;
+  border-bottom-right-radius: 2.9vw;
 }
 
 .icone-menu {
@@ -58,9 +57,9 @@ font-size: 6.7vw;
   justify-content: space-between;
   align-items: center;
   gap: 5rem;
-  padding: 10px;
+  padding: 0.5vw;
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
+  font-size: 2.1vw;
   width: 100%;
 }
 
