@@ -73,7 +73,7 @@ font-size: 6.7vw;
 .menu>li>a {
   color: #F9FAFD;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .menu>li.voci-menu>a:hover {
@@ -83,8 +83,8 @@ font-size: 6.7vw;
 }
 
 .icone-menu {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 5.2vw;
+  max-height: 5.2vw;
 }
 
 .submenu {
@@ -99,7 +99,6 @@ font-size: 6.7vw;
 
 @media (max-width: 1920px) and (min-width: 835px) {
   .menu {
-    font-size: 30px;
     justify-content: space-between;
     gap: 5rem;
   }
@@ -108,7 +107,6 @@ font-size: 6.7vw;
 /* Intervallo: da 1112px a 1212px */
 @media (max-width: 834px) and (min-width: 376px) {
   .menu {
-    font-size: 25px;
     justify-content: space-between;
     gap: 5rem;
   }
@@ -117,13 +115,10 @@ font-size: 6.7vw;
 /* Intervallo: fino a 1111px */
 @media (max-width: 375px) {
   .menu {
-    font-size: 15px;
     justify-content: space-between;
     gap: 5rem;
   }
 }
-
-
 
 /* Tablet Mobile Style*/
 @media (max-width: 1088px) {
@@ -132,13 +127,12 @@ font-size: 6.7vw;
 display: none;
 }
 
-
 .listen-to-your-skin-tablet {
-font-style: 'Delius Swash Caps';
-font-size: 48px;
+font-style: 'Delius Swash Caps', serif;
+font-size: 2.5vw;
 }
 
-  .menu-desktop {
+.menu-desktop {
     display: none;
   }
 
