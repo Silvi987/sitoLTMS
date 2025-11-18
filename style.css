@@ -95,6 +95,8 @@ font-size: 6.7vw;
 .header-menu-tablet-mobile {
   display: none;
 }
+
+
 /*salto responsive stile font proporzionale intermedia*/
 
 @media (max-width: 1920px) and (min-width: 835px) {
@@ -164,6 +166,7 @@ font-size: 48px;
 }
 
 /* Chiusura-Tablet Mobile Style*/
+
 
 h1 {
   font-family:'Delius Swash Caps', serif;
