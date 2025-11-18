@@ -318,9 +318,8 @@ h2 {
 }
 
 .skin-type {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  box-sizing: content-box;
+  display: flex;
+  flex-direction:row;
   gap: 100px 50px;
   place-items: center;
   font-family: 'Edu TAS Beginner', serif;
