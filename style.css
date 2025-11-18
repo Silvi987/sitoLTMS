@@ -116,6 +116,7 @@ font-size: 6.7vw;
 }
 
 /* Intervallo: fino a 1111px */
+/*
 @media (max-width: 375px) {
   .menu {
     font-size: 15px;
@@ -123,20 +124,24 @@ font-size: 6.7vw;
     gap: 5rem;
   }
 }
-
+*/
 
 
 /* Tablet Mobile Style*/
 @media (max-width: 1088px) {
 
+  
 .listen-to-your-skin-desktop {
 display: none;
 }
 
 
 .listen-to-your-skin-tablet {
+  text-align: center;
+  position: absolute;
 font-style: 'Delius Swash Caps';
 font-size: 48px;
+
 }
 
   .menu-desktop {
@@ -158,6 +163,7 @@ font-size: 48px;
     justify-content: space-between;
     background-color: #2339B6;
     list-style: none;
+    position: relative;
   }
 
 }
