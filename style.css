@@ -252,9 +252,9 @@ h2 {
 }
 
 .third {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(835px, 1fr));
+  place-items: center;
   gap: 6.25vw;
   margin-bottom: 11.4vw;
   margin-top: 8.8vw;
