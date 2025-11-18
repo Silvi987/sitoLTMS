@@ -565,6 +565,11 @@ font-size: 1.7vw;
   outline: none;
 }
 
+.prev-slide img, .next-slide img {
+  width: 5.2vw;
+  height: auto;
+}
+
 .slider {
   display: flex;
   justify-content: space-between;
