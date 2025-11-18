@@ -318,12 +318,14 @@ h2 {
 }
 
 .skin-type {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  box-sizing: content-box;
+  gap: 100px 50px;
+  place-items: center;
   font-family: 'Edu TAS Beginner', serif;
   font-weight: 500;
   font-size: 2.1vw;
-  display: flex;
-  justify-content: center;
-  gap: 3.4vw;
   list-style: none;
 }
 
@@ -332,12 +334,13 @@ figure {
 }
 
 figure img {
-  width: 100%;
+  width: 19.8vw;
   height: auto;
   border-radius: 0.4vw;
 }
 
 figcaption {
+  text-align: center;
   margin-top: 0.4vw;
   color: #3B3B3B;
 }
