@@ -24,10 +24,10 @@ button {
   background-color: #2339B6;
   border-radius: 2.6vw;
   color: #F9FAFD;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-top: 0.8vw;
+  padding-bottom: 0.8vw;
+  padding-left: 1.8vw;
+  padding-right: 1.8vw;
   font-size: 2.2vw;
   border-style: none;
 }
@@ -37,14 +37,13 @@ font-size: 6.7vw;
 }
 
 .menu-desktop {
-  height: 134px;
+  height: 7vw;
   display: flex;
   justify-content: space-between;
   background-color: #2339B6;
-  padding: 10px 40px;
-  border-bottom-left-radius: 55px;
-  border-bottom-right-radius: 55px;
-
+  padding: 0.5vw 2.1vw;
+  border-bottom-left-radius: 2.9vw;
+  border-bottom-right-radius: 2.9vw;
 }
 
 .icone-menu {
@@ -58,9 +57,9 @@ font-size: 6.7vw;
   justify-content: space-between;
   align-items: center;
   gap: 5rem;
-  padding: 10px;
+  padding: 0.5vw;
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
+  font-size: 2.1vw;
   width: 100%;
 }
 
@@ -74,7 +73,7 @@ font-size: 6.7vw;
 .menu>li>a {
   color: #F9FAFD;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .menu>li.voci-menu>a:hover {
@@ -84,8 +83,8 @@ font-size: 6.7vw;
 }
 
 .icone-menu {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 5.2vw;
+  max-height: 5.2vw;
 }
 
 .submenu {
@@ -100,7 +99,6 @@ font-size: 6.7vw;
 
 @media (max-width: 1920px) and (min-width: 835px) {
   .menu {
-    font-size: 30px;
     justify-content: space-between;
     gap: 5rem;
   }
@@ -109,7 +107,6 @@ font-size: 6.7vw;
 /* Intervallo: da 1112px a 1212px */
 @media (max-width: 834px) and (min-width: 376px) {
   .menu {
-    font-size: 25px;
     justify-content: space-between;
     gap: 5rem;
   }
@@ -119,7 +116,6 @@ font-size: 6.7vw;
 /*
 @media (max-width: 375px) {
   .menu {
-    font-size: 15px;
     justify-content: space-between;
     gap: 5rem;
   }
@@ -135,7 +131,6 @@ font-size: 6.7vw;
 display: none;
 }
 
-
 .listen-to-your-skin-tablet {
   text-align: center;
   position: absolute;
@@ -144,7 +139,7 @@ font-size: 48px;
 
 }
 
-  .menu-desktop {
+.menu-desktop {
     display: none;
   }
 
@@ -307,6 +302,7 @@ h2 {
 }
 
 .sottotitolo1 {
+  font-size: 3.3vw;
   background-color: #2339B6;
   color: #F9FAFD;
   border-radius: 10.4vw;
@@ -316,15 +312,31 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .skin-type {
+  font-family: 'Edu TAS Beginner', serif;
+  font-weight: 500;
+  font-size: 2.1vw;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 3.4vw;
   list-style: none;
+}
+
+figure {
+  margin: 1vw auto;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.4vw;
+}
+
+figcaption {
+  margin-top: 0.4vw;
+  color: #3B3B3B;
 }
 
 .sottotitolo2 {
@@ -332,7 +344,7 @@ h2 {
   color: #3B3B3B;
   border-radius: 10.4vw;
   width: 74.5vw;
-  height: 11.2vw;
+  height: 13vw;
   margin: 0 auto;
   text-align: center;
   border-width: var(--border-width);
@@ -350,34 +362,9 @@ h2 {
 
 .vaialtest  {
   position: absolute;
- bottom: 0;
- right: 50%;
- transform: translate(50% , calc(50% - var(--border-width) / 2));
- 
-}
-
-figure {
-  max-width: 380px;
-  margin: 20px auto;
-  /* centra il blocco */
-  text-align: center;
-  /* centra testo e immagine */
-  font-family: Arial, sans-serif;
-  color: #555;
-}
-
-figure img {
-  width: 100%;
-  height: auto;
-  border-radius: 0.4vw;
-}
-
-figcaption {
-  margin-top: 0.4vw;
-  font-size: 2.1vw;
-  font-style: italic;
-  color: #3B3B3B;
-  text-align: center;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50% , calc(50% - var(--border-width) / 2));
 }
 
 #base {
@@ -385,46 +372,58 @@ figcaption {
 }
 
 .blog {
-  display: grid;
-  place-items: center;
-  background: #2339B6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
   width: 88.6vw;
   border-radius: 5.2vw;
   margin: 0 auto;
-  margin-top: 11.2vw;
-  display: grid;
-  padding: 300px;
-  gap: 5.2vw;
+  gap: 3vw;
 }
 
 .h2-titlebox{
+  margin-top: 3vw;
   text-align: center;
+}
+
+.blog-button {
+  width: 88.6vw;
+  display: grid;
+  padding: 3.2vw 6.5vw;
+  gap: 5.2vw;
 }
 
 .block-b{
 margin-right: auto;
 background-color: #D4DEFE;
 color: #3B3B3B;
+font-family: 'Inter', sans-serif;
+font-size: 3.3vw;
+font-style: italic;
+font-weight: 300;
 }
 
 .block-b2 {
 margin-left: auto;
 background-color: #D83E5D;
+font-family: 'Inter', sans-serif;
+font-size: 3.3vw;
+font-style: italic;
+font-weight: 300;
 }
 
 .personalizzata {
   --border-width: 1.7vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #F9FAFD;
   border-width: var(--border-width);
   border-style: solid;
   border-color: #2339B6;
   width: 88.6vw;
-  height: 62.5vw;
+  height: 33.2vw;
   border-radius: 5.2vw;
   margin: 0 auto;
   margin-top: 10.4vw;
@@ -435,12 +434,12 @@ background-color: #D83E5D;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 75.8vw;
-  height: 10.1vw;
-  gap: 9.3vw;
+  gap: 5vw;
+  margin-top: 2vw;
 }
 
 .registra-account p {
+font-family: 'Inter', sans-serif;
 font-size: 1.7vw;
 }
 
@@ -457,19 +456,20 @@ font-size: 1.7vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 88px;
-  gap: 110px;
+  width: 73.3vw;
+  margin-bottom: 4.6vw;
+  gap: 5.7vw;
 }
 
 .title {
   background-color: #2339B6;
   color: #F9FAFD;
-  border-radius: 200px;
-  width: 1430px;
-  height: 272px;
+  border-radius: 10.4vw;
+  width: 74.5vw;
+  height: 14.2vw;
   text-align: center;
   overflow-wrap: break-word;
-  margin-top: 106px;
+  margin-top: 5.5vw;
 }
 
 .title h1 {
@@ -481,14 +481,14 @@ font-size: 1.7vw;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 92px;
-  margin-bottom: 100px;
+  gap: 4.8vw;
+  margin-bottom: 5.2vw;
 }
 
 .testo-affiancato {
-  max-width: 589px;
+  width: 30.7vw;
   text-align: left;
-  font-size: 32px;
+  font-size: 1.7vw;
 }
 
 .paragrafo2 {
@@ -496,11 +496,11 @@ font-size: 1.7vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 1.7vw;
 }
 
 .paragrafo2 p {
-  max-width: 1408px;
+  width: 73.3vw;
 }
 
 .step-base {
@@ -508,15 +508,15 @@ font-size: 1.7vw;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  gap: 30px;
+  gap: 1.6vw;
   list-style: none;
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin-top: 2.6vw;
+  margin-bottom: 3.6vw;
 }
 
 .step-base img {
-  height: 380px;
-  width: 380px;
+  height: 19.8vw;
+  width: 19.8vw;
 }
 
 .paragrafo3 {
@@ -524,18 +524,18 @@ font-size: 1.7vw;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 84px;
-  margin-bottom: 200px;
+  gap: 4.4vw;
+  margin-bottom: 10.4vw;
 }
 
 .slideshow-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 96px;
+  margin-top: 5.9vw;
   background-color: #2339B6;
-  max-width: 1620px;
-  border-radius: 100px;
+  width: 84.4vw;
+  border-radius: 5.2vw;
   position: relative;
   text-align: center;
   overflow: hidden;
@@ -547,14 +547,12 @@ font-size: 1.7vw;
   display: flex;
   justify-content: space-between;
   width: 100%;
-   
 }
 
 .prev-slide, .next-slide {
   border: none;
   background: none;
   outline: none;
-
 }
 
 .slider {
@@ -565,23 +563,19 @@ font-size: 1.7vw;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   transform: scale(0.8);
-  
 }
-
-
 
 .slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1620px;
+  width: 84.4vw;
   flex-shrink: 0;
-  flex-basis: 1620px;
+  flex-basis: 84.4vw;
   width: 100%;
   scroll-snap-align: start;
-  margin-top: 80px;
-  margin-bottom: 100px;
-  
+  margin-top: 4.2vw;
+  margin-bottom: 5.2vw;
 }
 
 .slide img, .caption-slide {
@@ -590,9 +584,9 @@ font-size: 1.7vw;
 
 .slider-container-img {
   text-align: center;
-  height: 840px;
-  width: 664px;
-  border-radius: 75px;
+  height: 43.7vw;
+  width: 34.6vw;
+  border-radius: 3.9vw;
   overflow: hidden;
 }
 
@@ -605,11 +599,11 @@ font-size: 1.7vw;
 
 .caption-slide {
   color: #F9FAFD;
-  font-size: 32px;
+  font-size: 1.7vw;
 }
 
 .caption-slide p {
-  margin-bottom: 60px;
+  margin-bottom: 3.1vw;
 }
 
 .slider-nav {
@@ -618,36 +612,28 @@ font-size: 1.7vw;
   position: absolute;
   border-radius: 100%;
   background: none;
-  
 }
 
 .slider-pagination {
   position: absolute;
   bottom: 0;
-  
-  
 }
 
 .dot{
   background-color: #F9FAFD;
   opacity: 0.5;
-  width: 20px;
-  height: 20px;
-  margin: 10px;
+  width: 1vw;
+  height: 1vw;
+  margin: 0.5vw;
   padding: 0; 
   cursor: pointer;
   border-radius: 100%;
-  margin-bottom:50px;
-  
-  
-  
+  margin-bottom: 2.6vw;
 }
 
 .dot.active {
   opacity: 1; /* per pallino acceso */
-  
 }
-
 
 
 /* CSS ABOUT FINE */
@@ -656,27 +642,26 @@ font-size: 1.7vw;
 footer {
   display: flex;
   justify-content: space-between;
-  font-family: 'Inter', sans-serif;
-  font-size: 20px;
   height: 320px;
   width: 100%;
-  background: #2339B6;
+  font-family: 'Inter', sans-serif;
+  font-size: 1vw;
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
-  border-top-left-radius: 75px;
-  border-top-right-radius: 75px;
-  margin-top: 143px;
+  border-top-left-radius: 3.9vw;
+  border-top-right-radius: 3.9vw;
+  margin-top: 7.4vw;
 }
 
 span {
-  font-size: 40px;
-  font-style: 'Edu TAS Beginner', italic;
+  font-family: 'Edu TAS Beginner', serif;
+  font-size: 2.1vw;
 }
 
 .colonna-sinistra {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 1.6vw;
 }
 
 .colonna-centrale {
@@ -684,7 +669,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 2.6vw;
 }
 
 .social {
@@ -692,7 +677,7 @@ span {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  gap: 5em;
+  gap: 4.2vw;
 }
 
 .colonna-destra {
@@ -701,6 +686,6 @@ span {
   justify-content: center;
   align-items: flex-end;
   text-align: right;
-  margin-top: 30px;
+  margin-top: 1.6vw;
 }
 
