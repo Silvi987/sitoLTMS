@@ -256,11 +256,14 @@ h2 {
 
 .third {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(835px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   place-items: center;
+  box-sizing: content-box;
   gap: 6.25vw;
   margin-bottom: 11.4vw;
   margin-top: 8.8vw;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .mood-verticale {
@@ -461,8 +464,9 @@ font-size: 1.7vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 73.3vw;
   margin-bottom: 4.6vw;
+  margin-left: 110px;
+  margin-right: 110px;
   gap: 5.7vw;
 }
 
@@ -477,21 +481,24 @@ font-size: 1.7vw;
   margin-top: 5.5vw;
 }
 
-.title h1 {
-  position: relative;
+#storia-titolo h2 {
+ font-family:'Delius Swash Caps', serif;
+ font-size: 5vw;
 }
 
 .paragrafo1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 4.8vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  place-items: center;
+  box-sizing: content-box;
+  gap: 75px;
   margin-bottom: 5.2vw;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .testo-affiancato {
-  width: 30.7vw;
+  width: 50vw;
   text-align: left;
   font-size: 1.7vw;
 }
@@ -502,10 +509,6 @@ font-size: 1.7vw;
   justify-content: center;
   align-items: center;
   font-size: 1.7vw;
-}
-
-.paragrafo2 p {
-  width: 73.3vw;
 }
 
 .step-base {
