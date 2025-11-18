@@ -471,12 +471,14 @@ font-size: 1.7vw;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2339B6;
   color: #F9FAFD;
   border-radius: 10.4vw;
   width: 74.5vw;
   height: 14.2vw;
-  text-align: center;
   overflow-wrap: break-word;
   margin-top: 5.5vw;
 }
@@ -498,7 +500,6 @@ font-size: 1.7vw;
 }
 
 .testo-affiancato {
-  width: 50vw;
   text-align: left;
   font-size: 1.7vw;
 }
@@ -508,7 +509,10 @@ font-size: 1.7vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 75px;
   font-size: 1.7vw;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .step-base {
@@ -516,7 +520,7 @@ font-size: 1.7vw;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  gap: 1.6vw;
+  gap: 20px;
   list-style: none;
   margin-top: 2.6vw;
   margin-bottom: 3.6vw;
@@ -533,6 +537,7 @@ font-size: 1.7vw;
   place-items: center;
   box-sizing: content-box;
   gap: 75px;
+  margin-top: 2.6vw;
   margin-bottom: 10.4vw;
   margin-left: 100px;
   margin-right: 100px;
@@ -584,7 +589,6 @@ font-size: 1.7vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 84.4vw;
   flex-shrink: 0;
   flex-basis: 84.4vw;
   width: 100%;
