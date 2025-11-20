@@ -58,8 +58,6 @@ font-size: 6.7vw;
   align-items: center;
   gap: 5rem;
   padding: 0.5vw;
-  font-family: 'Inter', sans-serif;
-  font-size: 2.1vw;
   width: 100%;
 }
 
@@ -67,7 +65,8 @@ font-size: 6.7vw;
   position: relative;
   display: flex;
   justify-content: space-between;
-  gap: 0px;
+  font-family: 'Inter', sans-serif;
+  font-size: 2vw;
 }
 
 .menu>li>a {
@@ -79,12 +78,12 @@ font-size: 6.7vw;
 .menu>li.voci-menu>a:hover {
   color: #3B3B3B;
   background-color: #D4DEFE;
-  padding: 50px 5px;
+  padding: 2.6vw 0.3vw;
 }
 
-.icone-menu {
-  max-width: 5.2vw;
-  max-height: 5.2vw;
+.icone-menu img {
+  width: 5.2vw;
+  height: auto;
 }
 
 .submenu {
@@ -96,22 +95,30 @@ font-size: 6.7vw;
   display: none;
 }
 
+/*salto responsive*/
 
-/*salto responsive stile font proporzionale intermedia*/
-
-@media (max-width: 1920px) and (min-width: 835px) {
-  .menu {
-    justify-content: space-between;
-    gap: 5rem;
-  }
+@media (max-width: 1920px) and (min-width: 850px) {
+  
 }
 
-/* Intervallo: da 1112px a 1212px */
-@media (max-width: 834px) and (min-width: 376px) {
-  .menu {
-    justify-content: space-between;
-    gap: 5rem;
+/* Intervallo: tablet e mobile */
+@media (max-width: 849px) and (min-width: 370px) {
+  .menu-desktop {
+    display: none;
   }
+
+  .header-menu-tablet-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #2339B6;
+  padding: 0.5vw;
+  padding: 0.5vw 2.1vw;
+  border-bottom-left-radius: 2.9vw;
+  border-bottom-right-radius: 2.9vw;
+}
 }
 
 /* Intervallo: fino a 1111px */
@@ -124,11 +131,9 @@ font-size: 6.7vw;
 }
 */
 
-
-/* Tablet Mobile Style*/
+/* Tablet Mobile Style
 @media (max-width: 1088px) {
 
-  
 .listen-to-your-skin-desktop {
 display: none;
 }
@@ -165,7 +170,7 @@ font-size: 48px;
 
 }
 
-/* Chiusura-Tablet Mobile Style*/
+Chiusura-Tablet Mobile Style*/
 
 
 h1 {
