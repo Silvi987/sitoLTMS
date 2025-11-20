@@ -262,6 +262,8 @@ h2 {
   gap: 6.25vw;
   margin-bottom: 11.4vw;
   margin-top: 8.8vw;
+  margin-left: 2.6vw;
+  margin-right: 2.6vw;
 }
 
 .mood-verticale {
@@ -659,7 +661,7 @@ font-size: 1.7vw;
 footer {
   display: flex;
   justify-content: space-between;
-  height: 320px;
+  height: 16.7vw;
   width: 100%;
   font-family: 'Inter', sans-serif;
   font-size: 1vw;
@@ -693,8 +695,14 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   list-style: none;
   gap: 4.2vw;
+}
+
+.social img {
+  width: 5.2vw;
+  height: auto;
 }
 
 .colonna-destra {
