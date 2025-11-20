@@ -493,10 +493,10 @@ font-size: 1.7vw;
   grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   place-items: center;
   box-sizing: content-box;
-  gap: 75px;
+  gap: 3.9vw;
   margin-bottom: 5.2vw;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5.2vw;
+  margin-right: 5.2vw;
 }
 
 .testo-affiancato {
@@ -509,10 +509,10 @@ font-size: 1.7vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 75px;
+  gap: 3.9vw;
   font-size: 1.7vw;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5.2vw;
+  margin-right: 5.2vw;
 }
 
 .step-base {
@@ -536,11 +536,11 @@ font-size: 1.7vw;
   grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   place-items: center;
   box-sizing: content-box;
-  gap: 75px;
+  gap: 3.9vw;
   margin-top: 2.6vw;
   margin-bottom: 10.4vw;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5.2vw;
+  margin-right: 5.2vw;
 }
 
 .slideshow-container {
