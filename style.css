@@ -14,8 +14,8 @@ body {
 p {
   text-align: left;
   font-style: 'Inter', sans-serif;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 3.9vw;
+  padding-right: 3.9vw;
 }
 
 button {
@@ -134,8 +134,8 @@ display: none;
 }
 
 .listen-to-your-skin-tablet {
-  text-align: center;
-  position: absolute;
+text-align: center;
+position: absolute;
 font-style: 'Delius Swash Caps';
 font-size: 48px;
 
@@ -256,14 +256,12 @@ h2 {
 
 .third {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   place-items: center;
   box-sizing: content-box;
   gap: 6.25vw;
   margin-bottom: 11.4vw;
   margin-top: 8.8vw;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .mood-verticale {
