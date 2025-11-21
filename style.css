@@ -330,6 +330,16 @@ h2 {
   font-size: 2.1vw;
   list-style: none;
 }
+.skin-type {
+  display: grid;
+  gap: 100px 50px;
+  place-items: center;
+  font-family: 'Edu TAS Beginner', serif;
+  font-weight: 500;
+  font-size: 2.1vw;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
 
 figure {
   margin: 1vw auto;
@@ -484,6 +494,7 @@ font-size: 1.7vw;
 #storia-titolo h2 {
  font-family:'Delius Swash Caps', serif;
  font-size: 5vw;
+ text-align: center;
 }
 
 .paragrafo1 {
