@@ -32,11 +32,11 @@ button {
   border-style: none;
 }
 
-button :hover {
-  box-shadow: 5px 10px #3B3B3B;
+button:hover {
+  box-shadow: 3px 6px 10px #3B3B3B;
 }
 
-button :active {
+button:active {
   background-color: #D83E5D;
 }
 
@@ -609,6 +609,14 @@ font-size: 1.7vw;
 .prev-slide img, .next-slide img {
   width: 5.2vw;
   height: auto;
+}
+
+#freccia1, #freccia2 {
+  box-shadow: none;
+}
+
+#freccia1:active, #freccia2:active {
+  background-color: #2339B6;
 }
 
 .slider {
