@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+html {
+  overflow-x: clip;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background: #F9FAFD;
