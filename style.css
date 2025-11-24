@@ -107,10 +107,14 @@ font-size: 6.7vw;
   display: none;
 }
 
+.socila-tablet-mobile {
+  display: none;
+}
+
 }
 
 /* Intervallo: tablet e mobile */
-@media (max-width: 849px) and (min-width: 200px) {
+@media (max-width: 849px) and (min-width: 150px) {
   .menu-desktop {
     display: none;
   }
@@ -193,6 +197,24 @@ font-size: 6.7vw;
 
 h1 {
   display: none;
+}
+
+#social-desktop {
+  display: none;
+}
+
+.mini-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  list-style: none;
+  gap: 10px;
+}
+
+.mini-social img{
+  width: 5.2vw;
+  height: auto;
 }
 
 }
