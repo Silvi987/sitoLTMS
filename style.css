@@ -165,6 +165,7 @@ font-size: 6.7vw;
   background: none;
   border: none;
   margin-top: 6vw;
+  padding: 0;
 }
 
 .hidden-menu {
@@ -174,7 +175,7 @@ font-size: 6.7vw;
   background-color: #2339B6;
   list-style: none;
   text-decoration: none;
-  margin: 0vw;
+  margin: 0;
   gap: 2vw;
   padding-top: 4vw;
   padding-bottom: 2vw;
