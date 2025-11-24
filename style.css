@@ -707,7 +707,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   overflow-x: auto;
-  overflow-x: hidden;
+  scrollbar-width: none;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   transform: scale(0.8);
