@@ -32,6 +32,14 @@ button {
   border-style: none;
 }
 
+button:hover {
+  box-shadow: 3px 6px 10px #3B3B3B;
+}
+
+button:active {
+  background-color: #D83E5D;
+}
+
 .listen-to-your-skin-desktop {
 font-size: 6.7vw;
 }
@@ -347,6 +355,16 @@ h2 {
   font-size: 2.1vw;
   list-style: none;
 }
+.skin-type {
+  display: grid;
+  gap: 100px 50px;
+  place-items: center;
+  font-family: 'Edu TAS Beginner', serif;
+  font-weight: 500;
+  font-size: 2.1vw;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
 
 figure {
   margin: 1vw auto;
@@ -503,6 +521,7 @@ font-size: 1.7vw;
 #storia-titolo h2 {
  font-family:'Delius Swash Caps', serif;
  font-size: 5vw;
+ text-align: center;
 }
 
 .paragrafo1 {
@@ -590,6 +609,14 @@ font-size: 1.7vw;
 .prev-slide img, .next-slide img {
   width: 5.2vw;
   height: auto;
+}
+
+#freccia1, #freccia2 {
+  box-shadow: none;
+}
+
+#freccia1:active, #freccia2:active {
+  background-color: #2339B6;
 }
 
 .slider {
