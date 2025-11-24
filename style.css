@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-  box-shadow: 3px 6px 10px #3B3B3B;
+  box-shadow: 3px 5px 9px rgba(59, 59, 59, 0.5);
 }
 
 button:active {
@@ -99,14 +99,14 @@ font-size: 6.7vw;
   display: none;
 }
 
-.header-menu-tablet-mobile {
-  display: none;
-}
-
 /*salto responsive*/
 
 @media (max-width: 1920px) and (min-width: 850px) {
-  
+
+  .header-menu-tablet-mobile {
+  display: none;
+}
+
 }
 
 /* Intervallo: tablet e mobile */
@@ -355,16 +355,6 @@ h2 {
   font-size: 2.1vw;
   list-style: none;
 }
-.skin-type {
-  display: grid;
-  gap: 100px 50px;
-  place-items: center;
-  font-family: 'Edu TAS Beginner', serif;
-  font-weight: 500;
-  font-size: 2.1vw;
-  list-style: none;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
 
 figure {
   margin: 1vw auto;
@@ -500,8 +490,8 @@ font-size: 1.7vw;
   justify-content: center;
   align-items: center;
   margin-bottom: 4.6vw;
-  margin-left: 110px;
-  margin-right: 110px;
+  margin-left: 5.7vw;
+  margin-right: 5.7vw;
   gap: 5.7vw;
 }
 
@@ -524,9 +514,15 @@ font-size: 1.7vw;
  text-align: center;
 }
 
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 2.1vw;
+}
+
 .paragrafo1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   place-items: center;
   box-sizing: content-box;
   gap: 3.9vw;
@@ -569,7 +565,7 @@ font-size: 1.7vw;
 
 .paragrafo3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   place-items: center;
   box-sizing: content-box;
   gap: 3.9vw;
