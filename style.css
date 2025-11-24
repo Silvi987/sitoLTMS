@@ -287,7 +287,7 @@ h2 {
 
 .third {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
   box-sizing: content-box;
   gap: 6.25vw;
@@ -576,6 +576,23 @@ h3 {
 
 .step-base img:hover {
   box-shadow: 3px 5px 9px rgba(59, 59, 59, 0.5);
+}
+
+/* Intervallo: mobile */
+@media (max-width: 375px) {
+
+  .step-base {
+  display: grid;
+  grid-template-columns: 50% 50%; /* Two columns, each 50% */
+  grid-template-rows: auto auto; /* Two rows */
+  align-items: center;
+  gap: 10px; /* Adjust the gap between grid items if needed */
+  width: 100%; /* Full width of the page */
+  list-style: none;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
+
 }
 
 .paragrafo3 {
