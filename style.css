@@ -129,12 +129,18 @@ font-size: 6.7vw;
 }
 
 .header-button {
- background: none;
+ background: #2339B6;
+ border-radius: 12vw;
 }
 
 .header-button img {
  width: 5.2vw;
  height: auto;
+ border-radius: 5vw;
+}
+
+#open-menu:active {
+  transform: rotate(90deg);
 }
 
 #listen-to-your-skin-tablet {
