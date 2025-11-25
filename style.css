@@ -2,6 +2,7 @@
 
 :root {
   --fixed-font-size: 16px;
+  --fixed-height: 55px;
 }
 
 *,*::before,*::after {
@@ -137,7 +138,7 @@ font-size: 6.7vw;
   justify-content: space-between;
   align-items: center;
   background-color: #2339B6;
-  height: 7vw;
+  height: max(7vw, var(--fixed-height));
   width: 100%;
   padding: 0.5vw 2.1vw;
   border-bottom-left-radius: 2.9vw;
