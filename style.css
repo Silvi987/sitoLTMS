@@ -314,7 +314,7 @@ h1 {
 
 h2 {
   font-family: 'Edu TAS Beginner', serif;
-  font-size: 3.3vw;
+  font-size: max(3.3vw, var(--fixed-font-size));
   font-weight: 400;
   text-align: center;
 }
@@ -384,7 +384,7 @@ h2 {
 }
 
 .sottotitolo1 {
-  font-size: 3.3vw;
+  font-size: max(3.3vw, var(--fixed-font-size));
   background-color: #2339B6;
   color: #F9FAFD;
   border-radius: 10.4vw;
@@ -493,7 +493,7 @@ margin-right: auto;
 background-color: #D4DEFE;
 color: #3B3B3B;
 font-family: 'Inter', sans-serif;
-font-size: 3.3vw;
+font-size: max(3.3vw, var(--fixed-font-size));
 font-style: italic;
 font-weight: 300;
 }
@@ -502,7 +502,7 @@ font-weight: 300;
 margin-left: auto;
 background-color: #D83E5D;
 font-family: 'Inter', sans-serif;
-font-size: 3.3vw;
+font-size: max(3.3vw, var(--fixed-font-size));
 font-style: italic;
 font-weight: 300;
 }
@@ -572,14 +572,14 @@ font-size: max(1.7vw, var(--fixed-font-size));
 
 #storia-titolo h2 {
  font-family:'Delius Swash Caps', serif;
- font-size: 5vw;
+ font-size: max(5vw, var(--fixed-font-size));
  text-align: center;
 }
 
 h3 {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 2.1vw;
+  font-size: max(2.1vw, var(--fixed-font-size));
 }
 
 .paragrafo1 {
