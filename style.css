@@ -402,7 +402,7 @@ h2 {
   place-items: center;
   font-family: 'Edu TAS Beginner', serif;
   font-weight: 500;
-  font-size: 2.1vw;
+  font-size: max(2.1vw, var(--fixed-font-size));
   list-style: none;
 }
 
@@ -617,6 +617,9 @@ h3 {
   list-style: none;
   margin-top: 2.6vw;
   margin-bottom: 3.6vw;
+  font-family: 'Edu TAS Beginner', serif;
+  font-weight: 500;
+  font-size: max(2.1vw, var(--fixed-font-size));
 }
 
 .step-base img {
