@@ -3,7 +3,7 @@
 :root {
   --fixed-font-size: 16px;
   --fixed-height: 48px;
-  --fixed-width: 60px;
+  --fixed-width: 35px;
 }
 
 *,*::before,*::after {
@@ -141,8 +141,8 @@ font-size: 6.7vw;
   height: max(7vw, var(--fixed-height));
   width: 100%;
   padding: 0.5vw 2.1vw;
-  border-bottom-left-radius: 2.9vw;
-  border-bottom-right-radius: 2.9vw;
+  border-bottom-left-radius: 2vw;
+  border-bottom-right-radius: 2vw;
 }
 
 #open-menu, #open-account {
@@ -152,7 +152,7 @@ font-size: 6.7vw;
 }
 
 .header-button img {
- width: 5.2vw;
+ width: max(5.2vw, var(--fixed-width));;
  height: auto;
 }
 
@@ -169,7 +169,7 @@ font-size: 6.7vw;
 .header-nav {
   background: none;
   border: none;
-  margin-top: 6vw;
+  margin-top: 8vw;
   padding: 0;
 }
 
