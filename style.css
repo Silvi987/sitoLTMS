@@ -3,6 +3,7 @@
 :root {
   --fixed-font-size: 16px;
   --fixed-height: 48px;
+  --fixed-width: 60px;
 }
 
 *,*::before,*::after {
@@ -87,7 +88,7 @@ font-size: 6.7vw;
   display: flex;
   justify-content: space-between;
   font-family: 'Inter', sans-serif;
-  font-size: 2vw;
+  font-size: max(2vw, var(--fixed-font-size));
 }
 
 .menu>li>a {
@@ -161,7 +162,7 @@ font-size: 6.7vw;
 
 #listen-to-your-skin-tablet {
   font-family:'Delius Swash Caps', serif;
-  font-size: 5vw;
+  font-size: max(5vw, var(--fixed-font-size));
   color: #F9FAFD;
 }
 
@@ -189,7 +190,7 @@ font-size: 6.7vw;
 
 .hidden-menu>li {
   font-family: 'Inter', sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
 }
 
