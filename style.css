@@ -169,7 +169,7 @@ font-size: 6.7vw;
 .header-nav {
   background: none;
   border: none;
-  margin-top: 8vw;
+  margin-top: 6vw;
   padding: 0;
 }
 
@@ -190,7 +190,7 @@ font-size: 6.7vw;
 
 .hidden-menu>li {
   font-family: 'Inter', sans-serif;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 400;
 }
 
@@ -235,12 +235,11 @@ h1 {
 }
 
 .mini-social img{
-  width: 5.2vw;
+  width: max(5.2vw, var(--fixed-width));
   height: auto;
 }
 
 }
-
 /* FINE Intervallo: tablet e mobile */
 
 h1 {
