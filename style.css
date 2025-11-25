@@ -41,7 +41,7 @@ button {
   padding-bottom: 0.8vw;
   padding-left: 1.8vw;
   padding-right: 1.8vw;
-  font-size: 2.2vw;
+  font-size: max(2.2vw, var(--fixed-font-size));
   border-style: none;
 }
 
@@ -113,7 +113,6 @@ font-size: 6.7vw;
 }
 
 /*salto responsive*/
-
 @media (max-width: 1920px) and (min-width: 850px) {
 
   .header-menu-tablet-mobile {
@@ -826,8 +825,6 @@ span {
   margin-top: 1.6vw;
 }
 
-
-/* Intervallo: mobile lista - sliderabout verticale*/
 /* Intervallo: mobile */
 @media (max-width: 400px) {
   .skin-type{
