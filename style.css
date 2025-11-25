@@ -586,10 +586,10 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   place-items: center;
   box-sizing: content-box;
-  gap: 3.9vw;
+  gap: 3vw;
   margin-bottom: 5.2vw;
-  margin-left: 5.7vw;
-  margin-right: 5.7vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .testo-affiancato {
@@ -634,11 +634,11 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   place-items: center;
   box-sizing: content-box;
-  gap: 3.9vw;
+  gap: 3vw;
   margin-top: 2.6vw;
   margin-bottom: 10.4vw;
-  margin-left: 5.7vw;
-  margin-right: 5.7vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .slideshow-container {
