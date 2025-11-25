@@ -291,7 +291,7 @@ h1 {
   gap: 41.7vw;
   position: absolute;
   bottom: 0; 
-   transform: translate(0% , 50%);
+  transform: translate(0% , 50%);
 }
 
 .mood-palline {
@@ -361,13 +361,14 @@ h2 {
   gap: 4vw;
   background-color: #F9FAFD;
   border-radius: 3.9vw;
-  width: 37.4vw;
-  height: 46.3vw;
+  width: 45vw;
+  height: auto;
   overflow: clip;
+  padding-bottom: 4vw;
 }
 
 .testo-fit-box {
-  font-size: 1.7vw;
+  font-size: max(1.7vw, var(--fixed-font-size));
   font-family: 'Inter', sans-serif;
   margin-top: 4vw;
 }
@@ -423,8 +424,6 @@ figure img {
   align-items: center;
   justify-content: center;
 }
-
-
 
 figcaption {
   text-align: center;
@@ -516,7 +515,7 @@ font-weight: 300;
   border-style: solid;
   border-color: #2339B6;
   width: 85vw;
-  height: 33vw;
+  height: auto;
   border-radius: 5.2vw;
   margin: 0 auto;
   margin-top: 10.4vw;
@@ -529,11 +528,12 @@ font-weight: 300;
   justify-content: center;
   gap: 5vw;
   margin-top: 2vw;
+  margin-bottom: 4vw;
 }
 
 .registra-account p {
 font-family: 'Inter', sans-serif;
-font-size: 1.7vw;
+font-size: max(1.7vw, var(--fixed-font-size));
 }
 
 .registrati-button {
