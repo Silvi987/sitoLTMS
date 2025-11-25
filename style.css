@@ -2,6 +2,9 @@
 
 :root {
   --fixed-font-size: 16px;
+  --fixed-font-size-button: 18px;
+  --fixed-font-size-h2: 20px;
+  --fixed-font-size-footer: 10px;
   --fixed-height: 48px;
   --fixed-width: 35px;
 }
@@ -42,7 +45,7 @@ button {
   padding-bottom: 0.8vw;
   padding-left: 1.8vw;
   padding-right: 1.8vw;
-  font-size: max(2.2vw, var(--fixed-font-size));
+  font-size: max(2.2vw, var(--fixed-font-size-button));
   border-style: none;
 }
 
@@ -88,7 +91,8 @@ font-size: 6.7vw;
   display: flex;
   justify-content: space-between;
   font-family: 'Inter', sans-serif;
-  font-size: max(2vw, var(--fixed-font-size));
+  font-size: 2vw;
+  font-weight: 400;
 }
 
 .menu>li>a {
@@ -162,14 +166,14 @@ font-size: 6.7vw;
 
 #listen-to-your-skin-tablet {
   font-family:'Delius Swash Caps', serif;
-  font-size: max(5vw, var(--fixed-font-size));
+  font-size: max(5vw, var(--fixed-font-size-h2));
   color: #F9FAFD;
 }
 
 .header-nav {
   background: none;
   border: none;
-  margin-top: 6vw;
+  margin-top: 8vw;
   padding: 0;
 }
 
@@ -313,7 +317,7 @@ h1 {
 
 h2 {
   font-family: 'Edu TAS Beginner', serif;
-  font-size: max(3.3vw, var(--fixed-font-size));
+  font-size: max(3.3vw, var(--fixed-font-size-h2));
   font-weight: 400;
   text-align: center;
 }
@@ -383,7 +387,7 @@ h2 {
 }
 
 .sottotitolo1 {
-  font-size: max(3.3vw, var(--fixed-font-size));
+  font-size: max(3.3vw, var(--fixed-font-size-h2));
   background-color: #2339B6;
   color: #F9FAFD;
   border-radius: 10.4vw;
@@ -402,7 +406,7 @@ h2 {
   place-items: center;
   font-family: 'Edu TAS Beginner', serif;
   font-weight: 500;
-  font-size: max(2.1vw, var(--fixed-font-size));
+  font-size: max(2.1vw, var(--fixed-font-size-h2));
   list-style: none;
 }
 
@@ -492,7 +496,7 @@ margin-right: auto;
 background-color: #D4DEFE;
 color: #3B3B3B;
 font-family: 'Inter', sans-serif;
-font-size: max(3.3vw, var(--fixed-font-size));
+font-size: max(3.3vw, var(--fixed-font-size-button));
 font-style: italic;
 font-weight: 300;
 }
@@ -501,7 +505,7 @@ font-weight: 300;
 margin-left: auto;
 background-color: #D83E5D;
 font-family: 'Inter', sans-serif;
-font-size: max(3.3vw, var(--fixed-font-size));
+font-size: max(3.3vw, var(--fixed-font-size-button));
 font-style: italic;
 font-weight: 300;
 }
@@ -571,7 +575,7 @@ font-size: max(1.7vw, var(--fixed-font-size));
 
 #storia-titolo h2 {
  font-family:'Delius Swash Caps', serif;
- font-size: max(5vw, var(--fixed-font-size));
+ font-size: max(5vw, var(--fixed-font-size-h2));
  text-align: center;
 }
 
@@ -603,7 +607,7 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 3.9vw;
-  font-size: max(var(--fixed-font-size), 1.7vw);
+  font-size: max(1.7vw, var(--fixed-font-size));
   margin-left: 5.7vw;
   margin-right: 5.7vw;
 }
@@ -619,7 +623,7 @@ h3 {
   margin-bottom: 3.6vw;
   font-family: 'Edu TAS Beginner', serif;
   font-weight: 500;
-  font-size: max(2.1vw, var(--fixed-font-size));
+  font-size: max(2.1vw, var(--fixed-font-size-h2));
 }
 
 .step-base img {
@@ -727,7 +731,7 @@ h3 {
 
 .caption-slide {
   color: #F9FAFD;
-  font-size: max(var(--fixed-font-size), 1.7vw);
+  font-size: max(1.7vw, var(--fixed-font-size));
 }
 
 .caption-slide p {
@@ -773,7 +777,7 @@ footer {
   height: 16.7vw;
   width: 100%;
   font-family: 'Inter', sans-serif;
-  font-size: 1vw;
+  font-size: max(1vw, var(--fixed-font-size-footer));
   background: linear-gradient(0deg, rgba(35, 57, 182, 1) 0%, rgba(212, 222, 254, 1) 100%);
   border-top-left-radius: 3.9vw;
   border-top-right-radius: 3.9vw;
@@ -782,7 +786,7 @@ footer {
 
 span {
   font-family: 'Edu TAS Beginner', serif;
-  font-size: 2.1vw;
+  font-size: max(2.1vw, var(--fixed-font-size-h2));
 }
 
 .colonna-sinistra {
@@ -849,7 +853,7 @@ span {
   margin-bottom: 3vw;
   font-family: 'Edu TAS Beginner', serif;
   font-weight: 500;
-  font-size: 2.1vw;
+  font-size: max(2.1vw, var(--fixed-font-size-h2));
 }
 
 .base1 {
