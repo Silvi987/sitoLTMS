@@ -8,6 +8,7 @@
   --fixed-height: 48px;
   --fixed-height-footer: 110px;
   --fixed-width: 35px;
+  --fixed-margin-top: 45px;
 }
 
 *,*::before,*::after {
@@ -174,7 +175,7 @@ font-size: 6.7vw;
 .header-nav {
   background: none;
   border: none;
-  margin-top: 8vw;
+  margin-top: max(8vw, var(--fixed-margin-top));
   padding: 0;
 }
 
@@ -245,6 +246,7 @@ h1 {
 }
 
 }
+
 /* FINE Intervallo: tablet e mobile */
 
 h1 {
