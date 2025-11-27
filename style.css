@@ -2,8 +2,8 @@
 
 :root {
   --fixed-font-size: 14px;
-  --fixed-font-size-button: 18px;
-  --fixed-font-size-h2: 20px;
+  --fixed-font-size-button: 16px;
+  --fixed-font-size-h2: 21px;
   --fixed-font-size-footer: 8px;
   --fixed-height: 48px;
   --fixed-height-footer: 110px;
@@ -175,7 +175,7 @@ font-size: 6.7vw;
 .header-nav {
   background: none;
   border: none;
-  margin-top: max(8vw, var(--fixed-margin-top));
+  margin-top: max(5.8vw, var(--fixed-margin-top));
   padding: 0;
 }
 
@@ -340,11 +340,11 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
   box-sizing: content-box;
-  gap: 6.25vw;
+  gap: 3vw;
   margin-bottom: 11.4vw;
   margin-top: 8.8vw;
-  margin-left: 2.6vw;
-  margin-right: 2.6vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .mood-verticale {
@@ -595,8 +595,8 @@ h3 {
   box-sizing: content-box;
   gap: 3vw;
   margin-bottom: 5.2vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .testo-affiancato {
@@ -609,10 +609,10 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3.9vw;
+  gap: 3vw;
   font-size: max(1.7vw, var(--fixed-font-size));
-  margin-left: 5.7vw;
-  margin-right: 5.7vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .step-base {
@@ -647,8 +647,8 @@ h3 {
   gap: 3vw;
   margin-top: 2.6vw;
   margin-bottom: 10.4vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .slideshow-container {
