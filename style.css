@@ -9,6 +9,7 @@
   --fixed-height-footer: 110px;
   --fixed-width: 35px;
   --fixed-margin-top: 44px;
+  
 }
 
 *,*::before,*::after {
@@ -286,12 +287,17 @@ h1 {
 }
 
 #acqua {
-  opacity: 45%;
+  
   width: 67.5vw;
   height: 50.6vw;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
+
+#acqua img {
+opacity: 45%;
+}
+
 
 @media (max-width: 1920px) and (min-width: 834px) {
 .txtsovrapposto2 {
@@ -307,19 +313,23 @@ h1 {
 #acqua {
   position: relative;
   background-size: cover; 
+  height: auto;
+  overflow: clip;
   
 }
 
 #acqua img {
   height: auto;        
-  
   position: absolute;
+  
   
 }
 
 .txtsovrapposto2 {
   position: relative;
   text-align: center;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
   
 }
 
