@@ -120,7 +120,7 @@ font-size: 6.7vw;
 }
 
 /*salto responsive*/
-@media (max-width: 1920px) and (min-width: 850px) {
+@media  (min-width: 850px) {
 
   .header-menu-tablet-mobile {
   display: none;
