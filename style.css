@@ -269,6 +269,7 @@ h1 {
 }
 
 .mood-orizzontale {
+  
   text-align: center;
   border-radius: 3.9vw;
   height: 45vw;
@@ -281,15 +282,50 @@ h1 {
   height: auto;
   object-fit: cover;
   display: block;
+  position: relative;
 }
 
 #acqua {
   opacity: 45%;
-  position: relative;
   width: 67.5vw;
   height: 50.6vw;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+}
+
+@media (max-width: 1920px) and (min-width: 834px) {
+.txtsovrapposto2 {
+  display: none;
+}
+}
+
+@media (max-width: 834px) {
+.txtsovrapposto1{
+  display: none;
+}
+
+#acqua {
+  position: relative;
+  background-size: cover; 
+  
+}
+
+#acqua img {
+  height: auto;        
+  
+  position: absolute;
+  
+}
+
+.txtsovrapposto2 {
+  position: relative;
+  text-align: center;
+  
+}
+
+
+
+
 }
 
 .inner-first {
